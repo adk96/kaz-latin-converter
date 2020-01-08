@@ -1,0 +1,1 @@
+java.exe -jar dist\Converter.jar  "D:\24\IDN mail\test\1.xml" "D:\24\IDN mail\test\1_latin.xml"

@@ -1,0 +1,1962 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- === App-specific strings ============================================================= -->
+
+    <!-- This should make it easier for forks to change the branding -->
+
+    <!-- Used in AndroidManifest.xml -->
+    <string name="app_name">DataMail</string>
+
+    <string name="shortcuts_title">DataMail тіркелгілері</string>
+    <string name="unread_widget_label">DataMail қатесі </string>
+
+    <string name="remote_control_label">DataMail Поштаны қашықтан басқару</string>
+    <string name="remote_control_desc">Осы қосымшаға  DataMail поштасының әрекеттері мен баптауларын басқаруға мүмкіндік береді .</string>
+
+
+    <!-- Used in the about dialog -->
+
+
+    <!-- Welcome message -->
+    <string name="welcome_message_title">DataMail қош келдіңіз</string>
+    <string name="accounts_welcome"><![CDATA[
+<p>
+DataMail - Android үшін қуатты тегін пошта клиенті.
+</p><p>
+Оның функцияларына кіреді:
+</p>
+<ul>
+  <li>IMAP IDLE пайдалану арқылы Push-поштасы </li>
+	<li>Үздік өнімділік</li>
+	<li> Хабарламаларды жаңарту </ li>
+	<li> Электрондық пошта қолтаңбалары </ li>
+	<Li> Өзіңіз үшін жасырын көшірме </ li>
+	<li> Қапшықтарға жазылу </ li>
+	<li> Барлық қапшықтарды қадамдастыру </ li>
+	<li> Қайтарылатын мекенжай конфигурациясы  </ li>
+	<li> Ыстық пернелер </ li>
+	<li> Жақсартылған IMAP қолдауы </ li>
+	<li> SD тіркемелерді сақтау </ li>
+	<li> Себетті тазалау </ li>
+	<li> Хабарламаларды сұрыптау </ li>
+	<li> ... және басқа да көптеген </ li>
+</ UL>
+<p>
+DataMail тегін Hotmail тіркелгілерін қолдамайтынын және көптеген пошта клиенттері сияқты Microsoft Exchange-мен сөйлесу кезінде кейбір қателер бар екенін ескеріңіз..
+</p><p>
+</p>
+    ]]></string>
+
+
+    <!-- Default signature -->
+    <string name="default_signature">-- \n<a href="http://datamail.in">Datamail</a> Әлемдегі бірінші лингвистикалық электрондық пошта мекен-жайы.</string>
+
+
+    <!-- General strings that include the app name -->
+    <string name="account_delete_dlg_instructions_fmt">Тіркелгі \"<xliff:g id="account">%s</xliff:g>\" DataMail-дан жойылады.</string>
+    <string name="account_recreate_dlg_instructions_fmt">Барлық жергілікті деректер \"<xliff:g id="account">%s</xliff:g>\" жойылады. Тіркелгі баптаулары сақталады.</string>
+    <string name="account_clear_dlg_instructions_fmt">Жергілікті хабарламалар көшірмесі \"<xliff:g id="account">%s</xliff:g>\"  жойылады. Тіркелгі баптаулары сақталады.</string>
+
+
+    <!-- === App Store-specific strings ======================================================= -->
+
+    <string name="import_dialog_error_message">Осы импортты жалғастыру үшін файл менеджерін орнатыңыз.</string>
+    <string name="open_market">Ойын дүкенін ашу</string>
+
+
+    <!-- === General strings ================================================================== -->
+
+    <string name="read_attachment_label">Электрондық пошта тіркемелерін оқу</string>
+    <string name="read_attachment_desc">Бұл қосымшаға электрондық пошта тіркемелерін оқуға мүмкіндік береді.</string>
+    <string name="read_messages_label">Хаттард оқу</string>
+    <string name="read_messages_desc">Бұл қосымшаға сіздің электрондық хаттарын оқуға мүмкіндік береді.</string>
+    <string name="delete_messages_label">Хаттарды жою</string>
+    <string name="delete_messages_desc">Бұл қосымшаға сіздің электрондық хаттарын жоюға мүмкіндік береді.</string>
+
+    <string name="accounts_title">Аккаунттар</string>
+    <string name="folders_title">Қапшықтар</string>
+    <string name="advanced">Кеңейтілген баптаулар</string>
+
+    <string name="message_list_title"><xliff:g id="account">%s</xliff:g>:<xliff:g id="folder">%s</xliff:g> </string>
+
+    <string name="compose_title_compose">Жазу</string>
+    <string name="compose_title_reply">Жауап беру</string>
+    <string name="compose_title_reply_all">Барлығына жауап беру</string>
+    <string name="compose_title_forward">Жіберу</string>
+
+    <string name="choose_account_title">Акаунтты таңдаңыз</string>
+    <string name="choose_folder_title">Қапшықты таңдаңыз</string>
+
+    <string name="status_loading_account_folder">Опрос <xliff:g id="account">%s</xliff:g>:<xliff:g id="folder">%s</xliff:g><xliff:g id="progress">%s</xliff:g></string>
+    <string name="status_loading_account_folder_headers">Тақырыптарды алу <xliff:g id="account">%s</xliff:g>:<xliff:g id="folder">%s</xliff:g><xliff:g id="progress">%s</xliff:g></string>
+    <string name="status_sending_account">Жіберу <xliff:g id="account">%s</xliff:g><xliff:g id="progress">%s</xliff:g></string>
+    <string name="status_processing_account">Рәсім <xliff:g id="account">%s</xliff:g>:<xliff:g id="command">%s</xliff:g><xliff:g id="progress">%s</xliff:g></string>
+    <string name="folder_progress">\u0020<xliff:g id="completed">%d</xliff:g>/<xliff:g id="total">%d</xliff:g></string>
+
+    <string name="status_next_poll">Келесі сауалнама <xliff:g id="nexttime">%s</xliff:g></string>
+    <string name="status_no_network">Қадамдастыру өшірілді-желі жоқ</string>
+    <string name="status_no_background">Қадамдастыру өшірілді-фондық белсенділік жоқ</string>
+    <string name="status_poll_and_push_disabled">Polling and pushing disabled</string>
+    <string name="status_syncing_blocked">Қадамдастыру бұғатталған</string>
+    <string name="status_syncing_off">адамдастыру өшірілді</string>
+
+    <string name="actionbar_selected"><xliff:g id="selection_count">%d</xliff:g> Таідалған</string>
+    <string name="next_action">бұдан</string>
+    <string name="previous_action">Артқа</string>
+    <!-- Used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
+    <string name="okay_action">OK</string>
+    <string name="cancel_action">Доғару</string>
+    <string name="send_action">Жіберу</string>
+    <string name="send_again_action">Тағы бір рет жіберу</string>
+    <string name="empty_subject">Тақырып бос, кез келген жағдайда жіберу үшін тағы бір рет басыңыз</string>
+    <string name="select_action">Таңдау</string>
+    <string name="deselect_action">Доғару</string>
+    <string name="reply_action">Жауап беру</string>
+    <string name="print_action">Басып шығару</string>
+    <string name="reply_all_action">Барлығына жауап беру</string>
+    <string name="delete_action">Жою</string>
+    <string name="archive_action">Мұрағат</string>
+    <string name="spam_action">Спам</string>
+    <string name="forward_action">Жіберу</string>
+    <string name="move_action">Өту</string>
+    <string name="single_message_options_action">Жіберу...</string>
+    <string name="refile_action">Қайталау…</string>
+    <string name="done_action">Жасалды</string>
+    <string name="discard_action">Тастау</string>
+    <string name="save_draft_action">Шимай ретінде сақтау</string>
+    <string name="check_mail_action">Поштаны тексеру</string>
+    <string name="send_messages_action">Хабарламаларды жіберу</string>
+    <string name="refresh_folders_action">Қапшықтар тізімін жаңарту</string>
+    <string name="filter_folders_action">Қапшықты іздеу</string>
+    <string name="add_account_action">Тіркелгіні қосу</string>
+    <string name="compose_action">Жазу</string>
+    <string name="search_action">Іздеу</string>
+    <string name="search_results">Іздеу нәтижелері</string>
+    <string name="preferences_action">Баптаулар</string>
+    <string name="account_settings_action">Тіркелгіні баптау</string>
+    <string name="folder_settings_action">Қапшықты баптау</string>
+    <string name="global_settings_action">Жалпы баптаулар</string>
+    <string name="remove_account_action">Тіркелгіні жою</string>
+    <string name="clear_pending_action">Күтетін әрекеттерді тазарту (қауіпті!)</string>
+
+    <string name="mark_as_read_action">оқылған деп белгілеу</string>
+    <string name="send_alternate_action">Бөлісу</string>
+    <string name="send_alternate_chooser_title">Жіберушіні таңдаңыз</string>
+
+    <string name="flag_action">Жұлдызшаны қосу</string>
+    <string name="unflag_action"> Жұлдызшаны жою</string>
+    <string name="copy_action">Копировать</string>
+    <string name="select_text_action">Мәтінді таңдаңыз</string>
+    <string name="show_headers_action">Тақырыбтарды көрсету</string>
+    <string name="hide_headers_action">Тақырыбтарды жасыру</string>
+    <plurals name="copy_address_to_clipboard">
+        <item quantity="one">Мекен-жай алмасу буферіне көшірілген</item>
+        <item quantity="other">Мекен-жайлар алмасу буферіне көшірілген</item>
+    </plurals>
+
+    <string name="message_view_theme_action_dark">Қараңғы тақырыпқа ауысу</string>
+    <string name="message_view_theme_action_light">Жарық тақырыбына ауысу</string>
+
+    <string name="mark_as_unread_action">Оқылмаған деп белгілеу</string>
+    <string name="read_receipt">Оқу туралы хабарлама</string>
+    <string name="read_receipt_enabled">Растауды сұрау</string>
+    <string name="read_receipt_disabled">Растауды сұрамау</string>
+    <string name="add_attachment_action">Тіркемелерді қосу</string>
+    <string name="empty_trash_action">Бос себет</string>
+    <string name="expunge_action">Әрекетті алып тастау</string>
+    <string name="clear_local_folder_action">Жергілікті хабарларды тазарту</string>
+    <string name="about_action">О әрекеттер</string>
+
+    <string name="prefs_title">Баптау</string>
+    <string name="accounts_context_menu_title">Тіркелгіні баптау</string>
+
+    <!-- Shown in place of the subject when a message has no subject. Showing this in parentheses is customary. -->
+    <string name="general_no_subject">(Тақырыбы жоқ)</string>
+    <string name="general_no_sender">Жіберуші жоқ</string>
+    <string name="status_loading">Дауыс беру</string>
+    <string name="status_loading_more">Хабарламаларды жүктеу\u2026</string>
+    <string name="status_network_error">Қосылу қатесі</string>
+    <string name="status_invalid_id_error">Хабарлама табылмады</string>
+    <string name="status_loading_error">Хабарламаны жүктеу қатесі</string>
+
+    <string name="status_loading_more_failed">Хабарламаларды жүктеуді қайталау</string>
+
+    <string name="load_more_messages_fmt">Дейін жүктеу <xliff:g id="messages_to_load">%d</xliff:g> көбірек </string>
+
+    <string name="abbrev_gigabytes">GB</string>
+    <string name="abbrev_megabytes">MB</string>
+    <string name="abbrev_kilobytes">KB</string>
+    <string name="abbrev_bytes">B</string>
+
+    <string name="account_size_changed">Тіркелгі \"<xliff:g id="account">%s</xliff:g>\" қысқарған <xliff:g id="oldSize">%s</xliff:g> to <xliff:g id="newSize">%s</xliff:g></string>
+
+    <string name="compacting_account">Шағын тіркелгі \"<xliff:g id="account">%s</xliff:g>\"</string>
+    <string name="clearing_account">Тіркелгіні тазалау\"<xliff:g id="account">%s</xliff:g>\"</string>
+    <string name="recreating_account">Тіркелгіні қалпына келтіру \"<xliff:g id="account">%s</xliff:g>\"</string>
+
+    <string name="notification_new_title">Жаңа пошта</string>
+    <plurals name="notification_new_messages_title">
+        <item quantity="one"><xliff:g id="new_message_count">%d</xliff:g> Жаңа хабарламалар</item> 
+        <item quantity="other"><xliff:g id="new_message_count">%d</xliff:g> Жаңа хабарламалар</item>
+    </plurals>
+    <string name="notification_new_one_account_fmt"><xliff:g id="unread_message_count">%d</xliff:g> Оқылмаған (<xliff:g id="account">%s</xliff:g>)</string>
+    <string name="notification_additional_messages">+ <xliff:g id="additional_messages">%1$d</xliff:g> еще <xliff:g id="account">%2$s</xliff:g></string>
+
+    <string name="notification_action_reply">Жауап беру</string>
+    <string name="notification_action_mark_as_read">Бергілеу</string>
+    <string name="notification_action_mark_all_as_read">Барлығы оқылған деп белгілеу</string>
+    <string name="notification_action_delete">Жою</string>
+    <string name="notification_action_delete_all">Барлығын жою</string>
+    <string name="notification_action_archive">Мұрағат</string>
+    <string name="notification_action_archive_all">Барлығын мұрағаттау</string>
+    <string name="notification_action_spam">Спам</string>
+    <string name="notification_certificate_error_title">үшін сертификат қатесі <xliff:g id="account">%s</xliff:g></string> 
+    <string name="notification_certificate_error_text">Сервер баптауларын тексеріңіз</string>
+
+    <string name="notification_authentication_error_title">Аутентификация қатесі</string>
+    <string name="notification_authentication_error_text">үшін аутентификация қатесі <xliff:g id="account">%s</xliff:g>. Сервер баптауларын жаңартыңз.</string>
+
+    <string name="notification_bg_sync_ticker">Поштаны тексеру: <xliff:g id="account">%s</xliff:g>:<xliff:g id="folder">%s</xliff:g></string>
+    <string name="notification_bg_sync_title">Поштаны тексеру</string>
+    <string name="notification_bg_send_ticker">Поштаны жіберу: <xliff:g id="account">%s</xliff:g></string>
+    <string name="notification_bg_send_title">Поштаны жіберу </string>
+    <string name="notification_bg_title_separator">:</string>
+
+    <string name="special_mailbox_name_inbox">Кіріс</string>
+    <string name="special_mailbox_name_outbox">Шығыс</string>
+    <string name="special_mailbox_name_drafts">Шимайлар</string>
+    <string name="special_mailbox_name_trash">Себет</string>
+    <string name="special_mailbox_name_sent">Жіберілген</string>
+    <string name="special_mailbox_name_archive">Мұрағат</string>
+    <string name="special_mailbox_name_spam">Спам</string>
+
+    <string name="special_mailbox_name_drafts_fmt"><xliff:g id="folder">%s</xliff:g> (Шимайлар)</string>
+    <string name="special_mailbox_name_trash_fmt"><xliff:g id="folder">%s</xliff:g> (Себет)</string>
+    <string name="special_mailbox_name_sent_fmt"><xliff:g id="folder">%s</xliff:g> (Жіберілдген)</string>
+    <string name="special_mailbox_name_archive_fmt"><xliff:g id="folder">%s</xliff:g> (Мұрағат)</string>
+    <string name="special_mailbox_name_spam_fmt"><xliff:g id="folder">%s</xliff:g> (Спам)</string>
+
+    <string name="send_failure_subject">Кейбір хабарламаларды жіберу мүмкін емес</string>
+
+    <string name="debug_enable_debug_logging_title">Жөндеу журналын жүргізуді қосу</string>
+    <string name="debug_enable_debug_logging_summary">Журнал туралы қосымша ақпарат</string>
+    <string name="debug_enable_sensitive_logging_title">Журналдың құпия ақпараты</string>
+    <string name="debug_enable_sensitive_logging_summary">Логтардағы құпия сөздердің көрсетілуін қосу.</string>
+
+    <string name="message_list_load_more_messages_action">Хабарламаларды жүктеу</string>
+    <string name="message_to_fmt">в:<xliff:g id="counterParty">%s</xliff:g></string>
+
+    <string name="message_compose_subject_hint">Тақырып</string>
+    <string name="message_compose_content_hint">Хабарламаның мәтіні</string>
+    <string name="message_compose_signature_hint">Қолтаңба</string>
+    <string name="message_compose_quote_header_separator">-------- Хабарламаның түпнұсқасы --------</string>
+    <string name="message_compose_quote_header_subject"> Тақырып:</string>
+    <string name="message_compose_quote_header_send_date"> Жіберілген:</string>
+    <string name="message_compose_quote_header_from">Кімнен:</string>
+    <string name="message_compose_quote_header_to">-нда:</string>
+    <string name="message_compose_quote_header_cc">Көшірме:</string>
+    <string name="message_compose_reply_header_fmt"><xliff:g id="sender">%s</xliff:g> жазды:</string>
+    <string name="message_compose_reply_header_fmt_with_date">на <xliff:g id="sent_date">%1$s</xliff:g>, <xliff:g id="sender">%2$s</xliff:g> жазды:</string>
+    <string name="message_compose_error_no_recipients">Сіз кем дегенде бір алушыны қосуыңыз керек.</string>
+    <string name="compose_error_incomplete_recipient">Алушы өрісінде толық емес енгізу бар!</string>
+    <string name="error_contact_address_not_found">Бұл контакт үшін электрондық пошта мекенжайы табылмады.</string>
+    <string name="message_compose_attachments_skipped_toast">Кейбір тіркемелер жіберілмеді, себебі олар жүктелмеді..</string>
+    <string name="message_compose_show_quoted_text_action">дәйексөз хабарлама</string>
+    <string name="message_compose_description_delete_quoted_text"> Дәйексөз мәтінің жою </string>
+    <string name="message_compose_description_edit_quoted_text">Дәйексөз мәтінін өңдеу</string>
+
+    <string name="message_view_from_format">От: <xliff:g id="name">%s</xliff:g> &lt;<xliff:g id="email">%s</xliff:g>&gt;</string>
+    <string name="message_to_label">-нда:</string>
+    <string name="message_from_label">Кімнен:</string>
+    <string name="message_view_cc_label">Көшірме:</string>
+    <string name="message_view_bcc_label">Жасырын көшірме:</string>
+    <string name="message_view_attachment_view_action">Ашу</string>
+    <string name="message_view_attachment_download_action">Сақтау</string>
+    <string name="message_view_status_attachment_not_saved">SD картасына бекітуді сақтау мүмкін емес.</string>
+    <string name="message_view_status_no_space">Тіркемені сақтау мүмкін емес, себебі орын жеткіліксіз.</string>
+    <string name="message_view_show_pictures_action">Суреттерді көрсету</string>
+    <string name="message_view_no_viewer">Көру құралы табылмады <xliff:g id="mimetype">%s</xliff:g>.</string>
+    <string name="message_view_download_remainder">Толық хабарламаны жүктеу</string>
+    <string name="message_view_toast_unable_to_display_message">Хабарламаны көрсету мүмкін емес</string>
+    <string name="message_view_sender_label">via %1$s</string>
+
+    <!-- NOTE: The following message refers to strings with id account_setup_incoming_save_all_headers_label and account_setup_incoming_title -->
+    <string name="message_no_additional_headers_available">Барлық тақырыптар жүктелген, бірақ көрсету үшін қосымша тақырыптар жоқ.</string>
+    <string name="message_additional_headers_retrieval_failed">Деректер қорынан немесе пошта серверінен қосымша тақырыптар алу мүмкін емес.</string>
+
+    <string name="from_same_sender">Бұл жіберушіден</string>
+    <string name="debug_delete_local_body">Хабарлама денесін теңшеу / тазалау</string>
+
+    <string name="message_discarded_toast">Хабарлама қабылданбады</string>
+    <string name="message_saved_toast">Хабарлама шимай ретінде сақталған</string>
+
+    <string name="global_settings_flag_label">Жұлдызшаларды көрсету</string>
+    <string name="global_settings_flag_summary">Жұлдыздар белгіленген хабарламаларды көрсетеді</string>
+    <string name="global_settings_checkbox_label">Көп позициялы жалаушалар</string>
+    <string name="global_settings_checkbox_summary">Әрқашан көп позициялы жалаушаларды көрсету</string>
+    <string name="global_settings_preview_lines_label">Алдын ала қарау жолдары</string>
+    <string name="global_settings_show_correspondent_names_label">Тиісті аттарды көрсетіңіз</string>
+    <string name="global_settings_show_correspondent_names_summary">Олардың электрондық пошта мекенжайларының орнына сәйкес аттарын көрсету</string>
+
+    <string name="global_settings_sender_above_subject_label">Корреспондент над предметом</string>
+    <string name="global_settings_sender_above_subject_summary">Тілшілердің аттарын төмен емес, тақырып жолының үстінде көрсету</string>
+
+    <string name="global_settings_show_contact_name_label">Контактілер аттарын көрсету</string>
+    <string name="global_settings_show_contact_name_summary">Қол жетімді контактілерден алушылардың аттарын пайдалану.</string>
+    <string name="global_settings_registered_name_color_label">Контактілерді бояу</string>
+    <string name="global_settings_registered_name_color_default">Контактілер тізімінде аттарды боямау</string>
+    <string name="global_settings_registered_name_color_changed">Контактілер тізімінде аттарды бояу</string>
+    <string name="global_settings_folderlist_wrap_folder_names_label">Қапшықтардың ұзын аттарын орау</string>
+    <string name="global_settings_folderlist_wrap_folder_names_summary">Қалталардың ұзын аттарын көрсету үшін бірнеше жолды пайдаланыңыз</string>
+
+    <string name="global_settings_messageview_fixedwidth_label">Тіркелген ені бар қаріптер</string>
+    <string name="global_settings_messageview_fixedwidth_summary">Мәтіндік хабарламаларды көрсеткен кезде ені бекітілген қаріпті пайдаланыңыз</string>
+    <string name="global_settings_messageview_autofit_width_label">Авто хабарларды таңдау</string>
+    <string name="global_settings_messageview_autofit_width_summary">Хабарларды экран өлшемімен сығу</string>
+    <string name="global_settings_messageview_return_to_list_label">Жойғаннан кейін тізімге оралу</string>
+    <string name="global_settings_messageview_return_to_list_summary">Хабарламаны жойғаннан кейін хабарламалар тізіміне оралу</string>
+    <string name="global_settings_messageview_show_next_label">Жойғаннан кейін келесі хабарламаны көрсету</string>
+    <string name="global_settings_messageview_show_next_summary">Хабарламаны жойғаннан кейін келесі әдепкі хабарламаны көрсету</string>
+
+    <string name="global_settings_confirm_actions_title">Әрекетті растау</string>
+    <string name="global_settings_confirm_actions_summary">Таңдалған әрекеттерді орындағанда диалогты көрсету</string>
+    <string name="global_settings_confirm_action_delete">Жою</string>
+    <string name="global_settings_confirm_action_delete_starred">Белгіні өшіру (хабарлама түрінде)</string>
+    <string name="global_settings_confirm_action_spam">Спам</string>
+    <string name="global_settings_confirm_menu_discard"> Хабарламаны доғару</string>
+    <string name="global_settings_confirm_menu_mark_all_read">Барлық хабарламаларды оқылған деп белгілеу</string>
+    <string name="global_settings_confirm_action_delete_notif">(хабарламадан) жою</string>
+
+    <string name="global_settings_privacy_hide_useragent">Пошта клиентін жасыру</string>
+    <string name="global_settings_privacy_hide_useragent_detail">DataMail User-Agent бағдарламасын пошта тақырыбынан жою</string>
+    <string name="global_settings_privacy_hide_timezone">Уақыт белдеуін жасыру</string>
+    <string name="global_settings_privacy_hide_timezone_detail">Хабарламалар тақырыптары мен жауап тақырыбында жергілікті уақыт белдеуінің орнына UTC пайдалану</string>
+    <string name="global_settings_notification_hide_subject_title">Хабарламада тақырыпты жасыру</string>
+    <string name="global_settings_notification_hide_subject_never">Ешқашан</string>
+    <string name="global_settings_notification_hide_subject_when_locked">Құрылғы бұғатталған кезде</string>
+    <string name="global_settings_notification_hide_subject_always">Әрқашан</string>
+
+    <string name="global_settings_notification_quick_delete_title">Көрсету \'Жою\' түйме</string>
+    <string name="global_settings_notification_quick_delete_never">Ешқашан</string>
+    <string name="global_settings_notification_quick_delete_when_single_msg">Бір хабарламаны хабарлау үшін</string>
+    <string name="global_settings_notification_quick_delete_always"> Әрқашан </string>
+    <string name="global_settings_notification_quick_delete_description">Хабарламаны жылдам жоюға мүмкіндік беретін ескертудегі түймені көрсету</string>
+
+    <string name="global_settings_lock_screen_notification_visibility_title">Хабарлама экранын бұғаттау</string>
+    <string name="global_settings_lock_screen_notification_visibility_nothing">Хабарлама экранын бұғаттамау</string>
+    <string name="global_settings_lock_screen_notification_visibility_app_name">Қосымша атауы</string>
+    <string name="global_settings_lock_screen_notification_visibility_message_count">Оқылмаған хабарламалардың саны</string>
+    <string name="global_settings_lock_screen_notification_visibility_senders">Хабарлар мен жіберушілер саны</string>
+    <string name="global_settings_lock_screen_notification_visibility_everything">Экранның құлпын ашқандағы сияқты</string>
+
+    <string name="quiet_time">Тыныш сағат</string>
+    <string name="quiet_time_description">Қоңырауларды, гуілдерді және түнде жыпылықтауды өшіру</string>
+    <string name="quiet_time_notification">Хабарландыруларды өшіру</string>
+    <string name="quiet_time_notification_description">Тыныш сағат кезінде хабарландыруларды толығымен өшіру</string>
+    <string name="quiet_time_starts">Тыныш сағат басталады</string>
+    <string name="quiet_time_ends">Тыныш сағат аяқталады</string>
+
+    <string name="account_setup_basics_title">Жаңа тіркелгіні баптау</string>
+    <string name="account_setup_basics_email_hint">Электрондық поштаның мекенжайы</string>
+    <string name="account_setup_basics_password_hint">Құпия сөз</string>
+    <string name="account_setup_basics_show_password">Құпия сөзді көрстеу</string>
+    <string name="account_setup_basics_manual_setup_action">Орнату нұсқаулығы</string>
+
+    <string name="account_setup_check_settings_title" />
+    <string name="account_setup_check_settings_retr_info_msg">Тіркелгі туралы ақпарат алу\u2026</string>
+    <string name="account_setup_check_settings_check_incoming_msg">Кіріс серверінің параметрлерін тексеру\u2026</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">Шығыс серверінің параметрлерін тексеру\u2026</string>
+    <string name="account_setup_check_settings_authenticate">Аутентификация\u2026</string>
+    <string name="account_setup_check_settings_fetch">Тіркелгі баптауларын таңдау\u2026</string>
+    <string name="account_setup_check_settings_canceling_msg">Доғару\u2026</string>
+
+    <string name="account_setup_names_title">Сіз дерлік бітірдіңіз!</string>
+    <string name="account_setup_names_account_name_label">Бұл тіркелгіге ат беріңіз (міндетті емес):</string>
+    <string name="account_setup_names_user_name_label">Атыңызды енгізіңіз (шығыс хабарламаларда көрсетіледі):</string>
+
+    <string name="account_setup_account_type_title">Тіркелгі түрі</string>
+    <string name="account_setup_account_type_instructions">Бұл қандай тіркелгі</string>
+    <string name="account_setup_account_type_pop_action">POP3</string>
+    <string name="account_setup_account_type_imap_action">IMAP</string>
+    <string name="account_setup_account_type_webdav_action">Алмасу (WebDAV)</string>
+
+    <string name="account_setup_auth_type_normal_password">Әдеттегі құпия сөз</string>
+    <string name="account_setup_auth_type_insecure_password">Құпия сөз қауіпсіз</string>
+    <string name="account_setup_auth_type_encrypted_password">Шифрланған құпия сөз</string>
+    <string name="account_setup_auth_type_tls_client_certificate">Клиенттің сертификаты</string>
+
+    <string name="account_setup_incoming_title">Кіріс серверінің параметрлері</string>
+    <string name="account_setup_incoming_username_label">Пайдаланушы</string>
+    <string name="account_setup_incoming_password_label">Құпия өз</string>
+    <string name="account_setup_incoming_client_certificate_label">Клиенттің сертификаты</string>
+    <string name="account_setup_incoming_pop_server_label">POP3 сервері</string>
+    <string name="account_setup_incoming_imap_server_label">IMAP сервері</string>
+    <string name="account_setup_incoming_webdav_server_label">Exchange сервері</string>
+    <string name="account_setup_incoming_port_label">Порт</string>
+    <string name="account_setup_incoming_security_label">Қауіпсіздік</string>
+    <string name="account_setup_incoming_auth_type_label">Аутентификация</string>
+    <string name="account_setup_incoming_security_none_label">Ешкім</string>
+    <string name="account_setup_incoming_security_ssl_label">SSL/TLS</string>
+    <string name="account_setup_incoming_security_tls_label">STARTTLS</string>
+    <string name="account_setup_incoming_invalid_setting_combo_notice">\"<xliff:g id="setting_1_label">%1$s</xliff:g> = <xliff:g id="setting_1_value">%2$s</xliff:g>\ "жарамсыз с \"<xliff:g id="setting_2_label">%3$s</xliff:g> = <xliff:g id="setting_2_value">%4$s</xliff:g>\"</string>
+
+    <string name="account_setup_incoming_delete_policy_label">Мен хабарламаны жойғанда</string>
+    <string name="account_setup_incoming_delete_policy_never_label">Серверде жоймау</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">Серверден жою</string>
+    <string name="account_setup_incoming_delete_policy_markread_label">Серверде оқылған деп белгілеу</string>
+
+    <string name="account_setup_incoming_compression_label">Желіде қысу пайдалану:</string>
+    <string name="account_setup_incoming_mobile_label">Ұялы</string>
+    <string name="account_setup_incoming_wifi_label">Wi-Fi</string>
+    <string name="account_setup_incoming_other_label">Басқа</string>
+
+    <string name="local_storage_provider_external_label">Сыртқы сақтау қоймасы (SD картасы)</string>
+    <string name="local_storage_provider_internal_label">Тұрақты ішкі қоймасы </string>
+    <string name="local_storage_provider_samsunggalaxy_label">%1$s қосымша ішкі қойма</string>
+    <string name="local_storage_provider_label">Сақтау орны</string>
+
+    <string name="account_setup_expunge_policy_label">Серверде жойылған хабарламаларды жою</string>
+    <string name="account_setup_expunge_policy_immediately">Дереу</string>
+    <string name="account_setup_expunge_policy_on_poll">Сұрау кезінде</string>
+    <string name="account_setup_expunge_policy_manual">Қолмен</string>
+
+    <string name="account_setup_incoming_autodetect_namespace_label">IMAP атауларының кеңістігін автоматты түрде анықтау</string>
+    <string name="account_setup_incoming_imap_path_prefix_label">IMAP жолының префиксі</string>
+
+    <string name="drafts_folder_label">Шимай қалтасы</string>
+    <string name="sent_folder_label"> "жіберілген" қалтасы</string>
+    <string name="trash_folder_label">Себет қалтасы</string>
+    <string name="archive_folder_label">Мұрағат қалтасы</string>
+    <string name="spam_folder_label">спамдар қалтасы</string>
+
+    <string name="account_setup_incoming_subscribed_folders_only_label">Тек қол қойылған қалталарды көрсету</string>
+    <string name="account_setup_auto_expand_folder">Автоматты түрде кеңейту қалтасы</string>
+
+    <string name="account_setup_incoming_webdav_path_prefix_label">OWA жолы</string>
+    <string name="account_setup_incoming_webdav_path_prefix_hint">Міндетті емес</string>
+
+    <string name="account_setup_incoming_webdav_auth_path_label">аутентификация жолы</string>
+    <string name="account_setup_incoming_webdav_auth_path_hint">Міндетті емес</string>
+    <string name="account_setup_incoming_webdav_mailbox_path_label">Пошта жәшігінің бүркеншік аты</string>
+    <string name="account_setup_incoming_webdav_mailbox_path_hint">Міндетті емес</string>
+
+    <string name="account_setup_outgoing_title">Шығыс серверінің баптаулары</string>
+    <string name="account_setup_outgoing_smtp_server_label">SMTP сервері</string>
+    <string name="account_setup_outgoing_port_label">Порт</string>
+    <string name="account_setup_outgoing_security_label">Қауіпсіздік</string>
+    <string name="account_setup_outgoing_require_login_label">Кіру қажет.</string>
+    <string name="account_setup_outgoing_username_label">Пайдаланушы</string>
+    <string name="account_setup_outgoing_password_label">Құпия сөз</string>
+    <string name="account_setup_outgoing_authentication_label">Аутентификация</string>
+    <string name="account_setup_outgoing_invalid_setting_combo_notice">\"<xliff:g id="setting_1_label">%1$s</xliff:g> = <xliff:g id="setting_1_value">%2$s</xliff:g>\ "жарамсыз\"<xliff:g id="setting_2_label">%3$s</xliff:g> = <xliff:g id="setting_2_value">%4$s</xliff:g>\"</string>
+
+    <string name="account_setup_bad_uri">Жарамсыз баптау:<xliff:g id="err_mess">%s</xliff:g></string>
+
+    <string name="account_setup_options_title">Тіркелгі баптаулары</string>
+
+    <string name="compact_action">Шағын тіркелгі</string>
+    <string name="clear_action">Хабарламаларды тазалау (қауіпті!)</string>
+    <string name="recreate_action">Мәліметтерді қалпына келтіру(Соңғы өтініш!)</string>
+
+    <string name="account_setup_options_mail_check_frequency_label">Қалта сұрауының жиілігі</string>
+    <string name="account_setup_options_mail_check_frequency_never">Ешқашан</string>
+    <string name="account_setup_options_mail_check_frequency_1min">   Әр минут сайын</string>
+    <string name="account_setup_options_mail_check_frequency_5min">Әрбір 5 минут сайын</string>
+    <string name="account_setup_options_mail_check_frequency_10min">Әрбір 10 минут сайын</string>
+    <string name="account_setup_options_mail_check_frequency_15min">Әрбір 15 минут сайын</string>
+    <string name="account_setup_options_mail_check_frequency_30min">Әрбір 30 минут сайын</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">Әр сағат сайын</string>
+    <string name="account_setup_options_mail_check_frequency_2hour">Әр 2 сағат сайын</string>
+    <string name="account_setup_options_mail_check_frequency_3hour">Әр 3 сағат сайын</string>
+    <string name="account_setup_options_mail_check_frequency_6hour">Әр 6 сағат сайын</string>
+    <string name="account_setup_options_mail_check_frequency_12hour">Әр 12 сағат сайын</string>
+    <string name="account_setup_options_mail_check_frequency_24hour">Әр 24 сағат сайын</string>
+
+    <string name="push_poll_on_connect_label">Push үшін қосылу кезінде сауалнама</string>
+    <string name="account_setup_options_enable_push_label">Бұл тіркелгінің push-поштасын қосу.</string>
+    <string name="account_setup_options_enable_push_summary">Егер серверіңіз оны қолдаса, жаңа хабарлар бірден көрсетіледі. Бұл параметр өнімділікті айтарлықтай жақсартуы немесе зақымдауы мүмкін.</string>
+    <string name="idle_refresh_period_label">IDLE байланысын жаңарту</string>
+    <string name="idle_refresh_period_1min">Әр минут сайын</string>
+    <string name="idle_refresh_period_2min">Әрбір 2 минут сайын</string>
+    <string name="idle_refresh_period_3min">Әрбір 3 минут сайын</string>
+    <string name="idle_refresh_period_6min">Әрбір 6 минут сайын</string>
+    <string name="idle_refresh_period_12min">Әрбір 12 минут сайын</string>
+    <string name="idle_refresh_period_24min">Әрбір 24 минут сайын</string>
+    <string name="idle_refresh_period_36min">Әрбір 36 минут сайын</string>
+    <string name="idle_refresh_period_48min">Әрбір 48 минут сайын</string>
+    <string name="idle_refresh_period_60min">Әрбір 60 минут сайын</string>
+
+    <string name="account_setup_options_notify_label">Пошта келгенде мені хабардар ету</string>
+    <string name="account_setup_options_notify_sync_label">Поштаны тексеру туралы мені хабардар ету</string>
+
+    <string name="account_setup_options_mail_display_count_label">Көрсетілетін хабарлар саны</string>
+    <string name="account_setup_options_mail_display_count_10">10 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_25">25 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_50">50 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_100">100 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_250">250 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_500">500 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_1000">1000 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_2500">2500 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_5000">5000 хабарлама </string>
+    <string name="account_setup_options_mail_display_count_10000">10000 хабарлама</string>
+    <string name="account_setup_options_mail_display_count_all">Барлық хабарламалар</string>
+
+    <string name="move_copy_cannot_copy_unsynced_message">Сервермен қадамдастырылған хабарламаны көшіру немесе жылжыту мүмкін емес</string>
+
+    <string name="account_setup_failed_dlg_title">Орнатуды аяқтау мүмкін емес</string>
+    <string name="account_setup_failed_dlg_auth_message_fmt">Пайдаланушы аты немесе құпия сөз жарамсыз.\n(<xliff:g id="error">%s</xliff:g>)</string>
+    <string name="account_setup_failed_dlg_certificate_message_fmt">Серверде SSL сертификаты дұрыс көрсетілмеген. ейде бұл сервердің дұрыс конфигурациясына байланысты болады.  Кейде бұл біреу сізге немесе сіздің пошта серверіңізге шабуыл жасағаны үшін орын алады. Егер сіз не болып жатқанын білмесеңіз, "қабылдамау" түймесін басып, пошта серверін басқаратын адамдарға хабарласыңыз. \n\n(<xliff:g id="error">%s</xliff:g>)</string>
+    <string name="account_setup_failed_dlg_server_message_fmt">Сервермен байланыс орнату мүмкін емес.\n(<xliff:g id="error">%s</xliff:g>)</string>
+    <string name="account_setup_failed_dlg_edit_details_action">Бөлшектерді өңдеу</string>
+    <string name="account_setup_failed_dlg_continue_action">Жалғастыру</string>
+
+    <string name="account_settings_push_advanced_title">Кеңейтілген баптаулар</string>
+    <string name="account_settings_title_fmt">Тіркелгі баптауы</string>
+    <string name="account_settings_default_label">Әдепкі тіркелгі</string>
+    <string name="account_settings_default_summary">Осы тіркелгіден әдепкі поштаны жіберу</string>
+    <string name="account_settings_notify_label">Жаңа пошта туралы хабарлама</string>
+
+    <string name="account_settings_folder_notify_new_mail_mode_label">Хабарламалар қалталары</string>
+    <string name="account_settings_folder_notify_new_mail_mode_all">Барлық</string>
+    <string name="account_settings_folder_notify_new_mail_mode_first_class">Тек 1 класты қалталар</string>
+    <string name="account_settings_folder_notify_new_mail_mode_first_and_second_class">1-ші және 2-ші сыныптардың қалталары</string>
+    <string name="account_settings_folder_notify_new_mail_mode_not_second_class">Екінші класты қалталардан басқа барлығы</string>
+    <string name="account_settings_folder_notify_new_mail_mode_none">Ешкім</string>
+
+    <string name="account_settings_notify_sync_label">Қадамдастыру туралы хабарлама</string>
+    <string name="account_settings_email_label">Электрондық поштаңыздың мекенжайы</string>
+    <string name="account_settings_notify_summary">Уведомлять в строке состояния о поступлении почты </string>
+    <string name="account_settings_notify_sync_summary">Поштаны тексеру кезінде күй жолағында хабарлау</string>
+    <string name="account_settings_notify_self_label">Шығыс поштасын қосу</string>
+    <string name="account_settings_notify_self_summary">Мен жіберген хабарламаларды көрсету</string>
+    <string name="account_notify_contacts_mail_only_label">Тек контактілер</string>
+    <string name="account_notify_contacts_mail_only_summary">Тек белгілі контактілер хабарлары үшін ескертулерді көрсету</string>
+    <string name="account_settings_notification_opens_unread_label">Хабарлама оқылмаған хабарларды ашады</string>
+    <string name="account_settings_notification_opens_unread_summary">Хабарлама ашылғанда оқылмаған хабарламаларды іздейді</string>
+    <string name="account_settings_mark_message_as_read_on_view_label">Ашылғанда оқылған деп белгілеу</string>
+    <string name="account_settings_mark_message_as_read_on_view_summary">Көру үшін ашық болған кезде хабарды оқылған деп белгілеу</string>
+
+    <string name="account_settings_show_pictures_label">Әрқашан суреттерді көрсету</string>
+    <string name="account_settings_show_pictures_never">Жоқ</string>
+    <string name="account_settings_show_pictures_only_from_contacts">Контактілерден</string>
+    <string name="account_settings_show_pictures_always">Кез келген адамнан</string>
+
+    <string name="account_settings_composition">Пощштаны жіберу</string>
+
+    <string name="account_settings_default_quoted_text_shown_label">Жауап беру кезінде хабарлама дәйексөз</string>
+    <string name="account_settings_default_quoted_text_shown_summary">Бастапқы хабарламаны өз жауабыңызға қосыңыз.</string>
+
+    <string name="account_settings_reply_after_quote_label">Дәйексөз мәтіннен кейін жауап беру</string>
+    <string name="account_settings_reply_after_quote_summary">Бастапқы хабар жауаптың үстінде пайда болады.</string>
+
+    <string name="account_settings_strip_signature_label">Жауапқа қол қою</string>
+    <string name="account_settings_strip_signature_summary">Қолтаңбалар дәйексөз хаттардан жойылады</string>
+
+    <string name="account_settings_message_format_label">Хабарлама нысаны</string>
+    <string name="account_settings_message_format_text">Қалыпты мәтін (суреттерді жою және пішімдеу)</string>
+    <string name="account_settings_message_format_html">HTML (суреттерді сақтау және пішімдеу)</string>
+    <string name="account_settings_message_format_auto">Автоматты</string>
+
+    <string name="account_settings_always_show_cc_bcc_label">Әрқашан Cc/Bcc көрсету</string>
+
+    <string name="account_settings_message_read_receipt_label">Алынғандарды оқу</string>
+    <string name="account_settings_message_read_receipt_summary">Әрқашан растауды сұрау</string>
+
+    <string name="account_settings_quote_style_label">Дәйексөз мәнерімен жауап беру</string>
+    <string name="account_settings_quote_style_prefix">Префикс (мысалы, Gmail)</string>
+    <string name="account_settings_quote_style_header">Тақырып (мысалы, Outlook)</string>
+
+    <string name="account_settings_general_title">Жалпы баптаулар</string>
+    <string name="account_settings_reading_mail">Поштаны оқу</string>
+    <string name="account_settings_sync">Поштан алу</string>
+    <string name="account_settings_folders">Қалталар</string>
+    <string name="account_settings_quote_prefix_label">Дәйексөз мәтіннің префиксі</string>
+    <string name="account_settings_crypto">Криптография</string>
+    <string name="account_settings_crypto_app">OpenPGP қосымшасы</string>
+    <string name="account_settings_crypto_key">Менің кілтім</string>
+    <string name="account_settings_no_openpgp_provider_configured">OpenPGP қосымшасы бапталмаған</string>
+
+    <string name="account_settings_mail_check_frequency_label">Қалта сұрауының жиілігі</string>
+
+    <string name="account_settings_storage_title">Сақтау</string>
+
+    <string name="account_settings_color_label">Тіркелгінің түсі</string>
+    <string name="account_settings_color_summary">Қалталар мен тіркелгілер тізімінде қолданылатын осы тіркелгі акцентінің түсі</string>
+
+    <string name="account_settings_led_color_label">LED түсінің хабарламасы</string>
+    <string name="account_settings_led_color_summary">Құрылғыдағы LED түсі осы тіркелгіге жыпылықтауы керек</string>
+
+    <string name="account_settings_mail_display_count_label">Жергілікті қапшықтың өлшемі</string>
+
+    <string name="account_settings_autodownload_message_size_label">дейін хабарламаларды алу</string>
+    <string name="account_settings_autodownload_message_size_1">1Kb</string>
+    <string name="account_settings_autodownload_message_size_2">2Kb</string>
+    <string name="account_settings_autodownload_message_size_4">4Kb</string>
+    <string name="account_settings_autodownload_message_size_8">8Kb</string>
+    <string name="account_settings_autodownload_message_size_16">16Kb</string>
+    <string name="account_settings_autodownload_message_size_32">32Kb</string>
+    <string name="account_settings_autodownload_message_size_64">64Kb</string>
+    <string name="account_settings_autodownload_message_size_128">128Kb</string>
+    <string name="account_settings_autodownload_message_size_256">256Kb</string>
+    <string name="account_settings_autodownload_message_size_512">512Kb</string>
+    <string name="account_settings_autodownload_message_size_1024">1Mb</string>
+    <string name="account_settings_autodownload_message_size_2048">2Mb</string>
+    <string name="account_settings_autodownload_message_size_5120">5Mb</string>
+    <string name="account_settings_autodownload_message_size_10240">10Mb</string>
+    <string name="account_settings_autodownload_message_size_any">any size (no limit)</string>
+
+    <string name="account_settings_message_age_label">Хабарламаларды қадамдастыру </string>
+    <string name="account_settings_message_age_any">кез келген уақытта (шектеусіз)</string>
+    <string name="account_settings_message_age_0">бүгін</string>
+    <string name="account_settings_message_age_1">соңғы 2 күн</string>
+    <string name="account_settings_message_age_2">соңғы  3 күн </string>
+    <string name="account_settings_message_age_7">соңғы аптада</string>
+    <string name="account_settings_message_age_14">соңғы 2 аптада</string>
+    <string name="account_settings_message_age_21">соңғы 3 аптада</string>
+    <string name="account_settings_message_age_1_month">соңғы айда</string>
+    <string name="account_settings_message_age_2_months">соңғы 2 айда</string>
+    <string name="account_settings_message_age_3_months">соңғы 3 айда</string>
+    <string name="account_settings_message_age_6_months">соңғы 6 айда</string>
+    <string name="account_settings_message_age_1_year"> соңғы жылда </string>
+
+    <string name="account_settings_folder_display_mode_label">Көрсету қалталары</string>
+    <string name="account_settings_folder_display_mode_all">Барлық</string>
+    <string name="account_settings_folder_display_mode_first_class">Тек 1 сынып қалталар</string>
+    <string name="account_settings_folder_display_mode_first_and_second_class">Тек 1-ші және 2-ші сыныптардың қалталары</string>
+    <string name="account_settings_folder_display_mode_not_second_class">Екінші сыныпты қалталардан басқа барлығы</string>
+
+    <string name="account_settings_folder_sync_mode_label">Сауалнама қалталары</string>
+    <string name="account_settings_folder_sync_mode_all"> Барлық </string>
+    <string name="account_settings_folder_sync_mode_first_class">Тек 1 сынып қалталар</string>
+    <string name="account_settings_folder_sync_mode_first_and_second_class">Тек 1-ші және 2-ші сыныптардың қалталары</string>
+    <string name="account_settings_folder_sync_mode_not_second_class">Екінші сыныпты қалталардан басқа барлығы</string>
+    <string name="account_settings_folder_sync_mode_none"> Ешкім </string>
+
+    <string name="account_settings_folder_push_mode_label">Push-қалталары</string>
+    <string name="account_settings_folder_push_mode_all">Барлық</string>
+    <string name="account_settings_folder_push_mode_first_class">Тек 1 сынып қалталар</string>
+    <string name="account_settings_folder_push_mode_first_and_second_class">Тек 1-ші және 2-ші сыныптардың қалталары</string>
+    <string name="account_settings_folder_push_mode_not_second_class">Екінші сыныпты қалталардан басқа барлығы</string>
+    <string name="account_settings_folder_push_mode_none">Ешкім</string>
+
+    <string name="account_settings_folder_target_mode_label">Тағайындау қалталарын жылжыту/көшіру</string>
+    <string name="account_settings_folder_target_mode_all">Барлық</string>
+    <string name="account_settings_folder_target_mode_first_class">Тек 1 сынып қалталар</string>
+    <string name="account_settings_folder_target_mode_first_and_second_class">1-ші және 2-ші сыныптардың қалталары</string>
+    <string name="account_settings_folder_target_mode_not_second_class">Екінші сыныпты қалталардан басқа барлығы</string>
+
+    <string name="account_settings_sync_remote_deletetions_label">Қадамдастыру серверлерін жою</string>
+    <string name="account_settings_sync_remote_deletetions_summary">Серверде жою кезінде хабарларды жою</string>
+
+    <string name="folder_settings_title">Қалталарды баптау</string>
+
+    <string name="folder_settings_in_top_group_label">Жоғары топта көрсету</string>
+    <string name="folder_settings_in_top_group_summary">Қалталар тізімінің жоғарғы жағында көрсету</string>
+
+    <string name="folder_settings_folder_display_mode_label">Қалталарды көрсету сыныбы</string>
+    <string name="folder_settings_folder_display_mode_normal">Сынып жоқ</string>
+    <string name="folder_settings_folder_display_mode_first_class">Бірінші сынып</string>
+    <string name="folder_settings_folder_display_mode_second_class">Екінші сынып</string>
+
+    <string name="folder_settings_folder_sync_mode_label">Қалта сұрауының сыныбы</string>
+    <string name="folder_settings_folder_sync_mode_normal">Ешкім</string>
+    <string name="folder_settings_folder_sync_mode_first_class">Бірінші сынып</string>
+    <string name="folder_settings_folder_sync_mode_second_class">Екінші сынып</string>
+    <string name="folder_settings_folder_sync_mode_inherited">Көрсету сыныбы сияқты</string>
+
+    <string name="folder_settings_folder_push_mode_label">push сыныбының қалтасы</string>
+    <string name="folder_settings_folder_push_mode_normal">Сынып жоқ</string>
+    <string name="folder_settings_folder_push_mode_first_class">Бірінші сынып</string>
+    <string name="folder_settings_folder_push_mode_second_class">Екінші сынып</string>
+    <string name="folder_settings_folder_push_mode_inherited">Қадамдастыру сыныбы сияқты</string>
+
+    <string name="folder_settings_folder_notify_mode_label">Қалтаны хабарлау сыныбы</string>
+    <string name="folder_settings_folder_notify_mode_normal">Сынып жоқ</string>
+    <string name="folder_settings_folder_notify_mode_first_class">Бірінші сынып</string>
+    <string name="folder_settings_folder_notify_mode_second_class">Екінші сынып</string>
+    <string name="folder_settings_folder_notify_mode_inherited">push сыныбы сияқты</string>
+
+    <string name="account_settings_incoming_label">Кіріс сервері</string>
+    <string name="account_settings_incoming_summary">Кіріс пошта серверін баптау</string>
+    <string name="account_settings_outgoing_label">Шығыс сервері</string>
+    <string name="account_settings_outgoing_summary">Шығыс пошта серверін баптау (SMTP)</string>
+    <string name="account_settings_description_label">Тіркелгінің аты</string>
+    <string name="account_settings_name_label">Сіздің атыңыз</string>
+    <string name="notifications_title">Хабарландыру</string>
+    <string name="account_settings_vibrate_enable">Дірілдеу</string>
+    <string name="account_settings_vibrate_summary">Пошта түскен кезде діріл</string>
+    <string name="account_settings_vibrate_pattern_label">Діріл үлгілері</string>
+    <string name="account_settings_vibrate_pattern_default">Әдепкі бойынша</string>
+    <string name="account_settings_vibrate_pattern_1"> 1 үлгі</string>
+    <string name="account_settings_vibrate_pattern_2"> 2 үлгі </string>
+    <string name="account_settings_vibrate_pattern_3"> 3 үлгі </string>
+    <string name="account_settings_vibrate_pattern_4"> 4 үлгі </string>
+    <string name="account_settings_vibrate_pattern_5"> 5 үлгі </string>
+    <string name="account_settings_vibrate_times">Дірілді қайталау</string>
+    <string name="account_settings_ringtone">Жаңа қоңырау үні</string>
+    <string name="account_settings_led_label">LED индикаторы</string>
+    <string name="account_settings_led_summary">Пошта түскен кезде LED жыпылықтату</string>
+
+    <string name="account_settings_composition_title">Хабарлама композициясын таңдау</string>
+    <string name="account_settings_composition_label">Әдепкі бойынша баптау</string>
+    <string name="account_settings_composition_summary">Bcc және қолтаңбадан әдепкі мәнді орнатыңыз</string>
+
+    <string name="account_settings_identities_label">Сәйкестендіруді басқару</string>
+    <string name="account_settings_identities_summary">Мекен-жай мен қолтаңбаның баламасын баптау</string>
+
+    <string name="manage_identities_title">Сәйкестендіруді басқару</string>
+
+    <string name="manage_identities_context_menu_title">Сәйкестендіруді басқару</string>
+
+    <string name="edit_identity_title">Сәйкестендіруді өзгерту</string>
+    <string name="new_identity_action">Жаңа сәйкестік</string>
+
+    <string name="account_settings_always_bcc_label">Хаттардың жасырын көшірмесі</string>
+
+    <string name="manage_identities_edit_action">Өңдеу</string>
+    <string name="manage_identities_move_up_action">Жоғарыға жылжыту</string>
+    <string name="manage_identities_move_down_action">Астыға жылжыту</string>
+    <string name="manage_identities_move_top_action">Бастапқы жылжыту / әдепкі пайдалану</string>
+    <string name="manage_identities_remove_action">Жою</string>
+
+    <string name="edit_identity_description_label">Сәйкестендіру сипаттамасы</string>
+    <string name="edit_identity_description_hint">(Міндетті емес)</string>
+    <string name="edit_identity_name_label">Сіздің атыңыз</string>
+    <string name="edit_identity_name_hint">(Міндетті емес)</string>
+    <string name="edit_identity_email_label">Электрондық поштаның мекенжайы</string>
+    <string name="edit_identity_email_hint">(Міндетті)</string>
+    <string name="edit_identity_reply_to_label">Кері мекенжай</string>
+    <string name="edit_identity_reply_to_hint">(Міндетті емес)</string>
+    <string name="edit_identity_signature_label">Қолтаңба</string>
+    <string name="edit_identity_signature_hint">(Міндетті емес)</string>
+
+    <string name="account_settings_signature_use_label">Қолтаңбаны пайдалану</string>
+    <string name="account_settings_signature_label">Қолтаңба</string>
+
+    <string name="default_identity_description">Бастапқы сәйкестендіру</string>
+    <string name="choose_identity_title">Сәйкестендіру таңдаңыз</string>
+    <string name="send_as">Send as</string>
+
+    <string name="no_removable_identity">Сіз өзіңіздің сәйкестікті жоя алмайсыз</string>
+    <string name="identity_has_no_email">Сіз электрондық пошта мекенжайынсыз жеке тұлғаны пайдалана алмайсыз </string>
+
+    <string name="sort_earliest_first">Бастапқы хабарламалар</string>
+    <string name="sort_latest_first">Соңғы хабарламалар</string>
+    <string name="sort_subject_alpha">Алфавит тақырыбы</string>
+    <string name="sort_subject_re_alpha">Кері алфавиттік тақырыб</string>
+    <string name="sort_sender_alpha">Алфавит бойынша жіберуші</string>
+    <string name="sort_sender_re_alpha">Кері алфавитпен жіберуші</string>
+    <string name="sort_flagged_first">Алдымен белгіленген хабарламалар</string>
+    <string name="sort_flagged_last">Алдымен жіберілмеген хабарламалар</string>
+    <string name="sort_unread_first">Оқылмаған хабарламалар</string>
+    <string name="sort_unread_last">Алдымен хабарламаларды оқу</string>
+    <string name="sort_attach_first">Алдымен тіркелген файлдармен хабарламалар</string>
+    <string name="sort_unattached_first">Хабарлама тіркемесіз</string>
+
+    <string name="sort_by">бойынша сұрыптау…</string>
+    <string name="sort_by_date">Күні</string>
+    <string name="sort_by_arrival">келу</string>
+    <string name="sort_by_subject">Тақырып</string>
+    <string name="sort_by_sender">Жіберуші</string>
+    <string name="sort_by_flag">Жұлдыз</string>
+    <string name="sort_by_unread">Оқылған/оқылмаған</string>
+    <string name="sort_by_attach">Тіркеме</string>
+
+    <string name="account_delete_dlg_title">Тіркелгіні жою</string>
+
+    <string name="account_recreate_dlg_title"> Тіркелгіні қалпына келтіру</string>
+
+    <string name="account_clear_dlg_title"> Тіркелгіні тазалау</string>
+
+    <string name="provider_note_auonejp">Бір пошта баптаулары бетінде IMAP немесе POP3 қосыңыз.</string>
+    <string name="provider_note_naver">NAVER пошта баптаулары бетінде IMAP немесе POP3 қосыңыз.</string>
+    <string name="provider_note_hanmail">Hanmail (Daum) пошта баптаулары бетінде IMAP немесе POP3 қосыңыз..</string>
+
+    <string name="account_setup_failed_dlg_invalid_certificate_title">Танылмаған сертификат</string>
+    <string name="account_setup_failed_dlg_invalid_certificate_accept">Кілтті қабылдау</string>
+    <string name="account_setup_failed_dlg_invalid_certificate_reject">Кілтті қабылдамау</string>
+
+    <string name="message_view_help_key">Del (or D) - Delete\nR - Reply\nA - Reply All\nC - Compose\nF - Forward\nM - Move\nV - Archive\nY - Copy\nZ - Mark (Un)read\nG - Star\nO - Sort type\nI - Sort order\nQ - Return to Folders\nS - Select/deselect\nJ or P - Previous Message\nK or N - Next Message</string>
+    <string name="message_list_help_key">Del (or D) - Delete\nC - Compose\nM - Move\nV - Archive\nY - Copy\nZ - Mark (Un)read\nG - Star\nO - Sort type\nI - Sort order\nQ - Return to Folders\nS - Select/deselect</string>
+
+    <string name="folder_list_help_key">1 Тек 1-ші сыныптың қалталарын көрсету \n2 - 1-ші және 2-ші сыныптарының қалталарын көрсету\n3 - Екінші сыныбынан басқасын барлығын көрсету\n4 - Барлық қалталарды көрсету\nQ - Тіркелгіге оралу\nS - Тіркелгі баптауларын өзгерту</string>
+
+    <string name="folder_list_filter_hint">Қалта атауының құрамында</string>
+
+    <string name="folder_list_display_mode_label">Қалталарды көрсету…</string>
+    <string name="folder_list_display_mode_all">Барлық қалталар</string>
+    <string name="folder_list_display_mode_first_class">1-ші сыныбының қалталары </string>
+    <string name="folder_list_display_mode_first_and_second_class">1-ші &amp; 2-ші сыныбының қалталары</string>
+    <string name="folder_list_display_mode_not_second_class">Екінші сыныптың қалтасын жасыру</string>
+ 
+    <string name="account_settings_signature__location_label">Қолтаңба позициясы </string>
+    <string name="account_settings_signature__location_before_quoted_text">Хабарламаны дәйексөздеу алдында</string>
+    <string name="account_settings_signature__location_after_quoted_text">Дәйексіз хабарламадан кейін</string>
+    <string name="setting_theme_global">Қосымшаның тақырыбын пайдалану</string>
+    <string name="setting_theme_dark">Қара</string>
+    <string name="setting_theme_light">Ашық</string>
+    <string name="display_preferences">Дисплей</string>
+    <string name="global_preferences">Жалпы</string>
+    <string name="debug_preferences">Баптау</string>
+    <string name="privacy_preferences">Құпиялылық</string>
+    <string name="network_preferences">Желі</string>
+    <string name="interaction_preferences">Өзара әрекеттесу</string>
+    <string name="accountlist_preferences">Тіркелгілердің тізімі</string>
+    <string name="messagelist_preferences">Хабарламалар тізімі</string>
+    <string name="messageview_preferences">Хабарламалар</string>
+    <string name="folderlist_preferences">Қалталардың тізімі</string>
+    <string name="settings_theme_label">Тақырып</string>
+    <string name="settings_message_theme_label">Хабарлама түрінің тақырыбы</string>
+    <string name="settings_compose_theme_label">Композитордың тақырыбы</string>
+    <string name="settings_language_label">Тіл</string>
+
+    <string name="settings_message_theme_selection_label">Хабарламаның тақырыбы түзетілді</string>
+    <string name="settings_message_theme_selection_summary_off">Хабарды қарау кезінде хабарды қарау тақырыбын таңдаңыз.</string>
+    <string name="settings_message_theme_selection_summary_on">Хабарларды қараудың белгіленген тақырыбын пайдалану</string>
+
+
+    <string name="setting_language_system">Әдепкі жүйелік қондырғылар</string>
+
+    <string name="background_ops_label">Фонды қадамдастыру</string>
+    <string name="background_ops_never">Ешқашан</string>
+    <string name="background_ops_always">Әрқашан</string>
+    <string name="background_ops_auto_sync_only">Қашан \'Автоқадамдастыру\' тексеріледі</string>
+
+    <string name="batch_select_all">Барлығын таңдау</string>
+
+    <string name="account_setup_push_limit_label">Push арқылы тексеру үшін ең көп қалталар</string>
+    <string name="account_setup_push_limit_10">10 қалталар</string>
+    <string name="account_setup_push_limit_25">25 қалталар </string>
+    <string name="account_setup_push_limit_50">50 қалталар </string>
+    <string name="account_setup_push_limit_100">100 қалталар </string>
+    <string name="account_setup_push_limit_250">250 қалталар </string>
+    <string name="account_setup_push_limit_500">500 қалталар </string>
+    <string name="account_setup_push_limit_1000">1000 қалталар </string>
+
+    <string name="animations_title">Анимация</string>
+    <string name="animations_summary">Жарқын көрнекі әсерлерді пайдаланыңызз</string>
+    <string name="gestures_title">Қимылдар</string>
+    <string name="gestures_summary">Қимылмен басқаруды қосыңыз</string>
+
+    <string name="volume_navigation_title">Дыбыс деңгейін реттеу пернесі</string>
+    <string name="volume_navigation_message">Хабарлама ретінде</string>
+    <string name="volume_navigation_list">]Тізім ретінде</string>
+
+    <string name="start_integrated_inbox_title">Бір «Кіріс» қалтасында іске қосу</string>
+
+    <string name="measure_accounts_title">Тіркелгінің өлшемін көрсету</string>
+    <string name="measure_accounts_summary">Жылдам көрсету үшін өшіру</string>
+
+    <string name="count_search_title">Іздеу нәтижелерін санау</string>
+    <string name="count_search_summary">Жылдам көрсету үшін өшіру</string>
+
+    <string name="hide_special_accounts_title">Арнайы тіркелгілерді жасыру</string>
+    <string name="hide_special_accounts_summary">Бірыңғай пошта жәшігін және барлық тіркелгі хабарламаларын жасыру</string>
+
+    <string name="search_title"><xliff:g id="search_name">%s</xliff:g> <xliff:g id="modifier">%s</xliff:g></string>
+    <string name="flagged_modifier"> - Белгіленген</string>
+    <string name="unread_modifier"> - Белгіленбеген</string>
+
+    <string name="search_all_messages_title">Барлық хабарламалар</string>
+    <string name="search_all_messages_detail">Іздеу қалтасындағы барлық хабарламалар</string>
+
+    <string name="integrated_inbox_title">Сәйкестендірілген кірістер</string>
+    <string name="integrated_inbox_detail">Сәйкестендірілген қапшықтардағы барлық хабарламалар</string>
+
+    <string name="tap_hint">Оқылмаған немесе белгіленген хабарлар үшін шеңбер немесе жұлдызшаны басыңыз </string>
+
+    <string name="folder_settings_include_in_integrated_inbox_label">Біріздендіру</string>
+    <string name="folder_settings_include_in_integrated_inbox_summary">Барлық хабарлар "Кіріс" қалтасында көрсетіледі </string>
+
+    <string name="account_settings_searchable_label">Іздеу қапшықтары</string>
+    <string name="account_settings_searchable_all">Барлық</string>
+    <string name="account_settings_searchable_displayable">Көрінетін</string>
+    <string name="account_settings_searchable_none">Ешкім</string>
+
+    <string name="font_size_settings_title">Қаріп өлшемі</string>
+    <string name="font_size_settings_description">Қаріп өлшемін баптау</string>
+
+    <string name="font_size_account_list">Тіркелгілердің тізімі</string>
+    <string name="font_size_account_name">Пайдаланушы аты</string>
+    <string name="font_size_account_description">Тіркелгінің сипаттамасы</string>
+
+    <string name="font_size_folder_list">Қалталардың тізімі</string>
+    <string name="font_size_folder_name">Қалтаның атауы</string>
+    <string name="font_size_folder_status">Қалтаның мәртебесі</string>
+
+    <string name="font_size_message_list">Хабарламалардың тізімі</string>
+    <string name="font_size_message_list_subject">Тақырып</string>
+    <string name="font_size_message_list_sender">Жіберуші</string>
+    <string name="font_size_message_list_date">Күні</string>
+    <string name="font_size_message_list_preview">Көрініс</string>
+
+    <string name="font_size_message_view">Хабарламалар</string>
+    <string name="font_size_message_view_sender">Жіберуші</string>
+    <string name="font_size_message_view_to">To</string>
+    <string name="font_size_message_view_cc">Cc</string>
+    <string name="font_size_message_view_bcc">Bcc</string>
+    <string name="font_size_message_view_additional_headers">Қосымша тақырып</string>
+    <string name="font_size_message_view_subject">Тақырып</string>
+    <string name="font_size_message_view_date">Уақыты мен күні</string>
+    <string name="font_size_message_view_content">Хабарлама денесі</string>
+    <string name="font_size_message_view_content_summary"><xliff:g id="fontsize">%d</xliff:g>%%</string>
+    <string name="font_size_message_view_content_dialog_title"><xliff:g id="title">%1$s</xliff:g>: <xliff:g id="summary">%2$s</xliff:g></string>
+
+    <string name="font_size_message_compose">Хабарлама құрамы</string>
+    <string name="font_size_message_compose_input">Мәтінді енгізу өрісі</string>
+
+    <string name="font_size_default">Әдепкі бойынша</string>
+    <string name="font_size_tiniest">Ең ұсақ</string>
+    <string name="font_size_tiny">Қте кішкентай</string>
+    <string name="font_size_smaller">Шағын</string>
+    <string name="font_size_small">Кішкентай</string>
+    <string name="font_size_medium">Орташа</string>
+    <string name="font_size_large">Үлкен</string>
+    <string name="font_size_larger">Өте үлкен</string>
+
+    <string name="miscellaneous_preferences">Алуан түрлі</string>
+
+    <string name="error_activity_not_found">Бұл әрекет үшін қолайлы қосымшалар табылмады.</string>
+    <string name="send_failed_reason">Хабарлама жіберу мүмкін емес: %s</string>
+
+    <string name="save_or_discard_draft_message_dlg_title">Хабарламаны шимайға сақтау?</string>
+    <string name="save_or_discard_draft_message_instructions_fmt">Бұл хабарламаны сақтау немесе жою?</string>
+
+    <string name="confirm_discard_draft_message_title">Хабарламаны жою?</string>
+    <string name="confirm_discard_draft_message">Сіз шынымен осы хабарды доғарғыңыз келе ме?</string>
+
+    <string name="select_text_now">Көшіру үшін мәтінді таңдаңыз.</string>
+
+    <string name="dialog_confirm_delete_title">Жоюды растау</string>
+    <string name="dialog_confirm_delete_message">Сіз бұл хабарламаны жойғыңыз келе ме?</string>
+
+    <plurals name="dialog_confirm_delete_messages">
+        <item quantity="one">Сіз шынымен осы хабарды жойғыңыз келе ме?</item>
+        <item quantity="other">Сіз шынымен жойғыңыз келе ме? <xliff:g id="message_count">%1$d</xliff:g> хабарды жойғыңыз келе ме?</item>
+    </plurals>
+    <string name="dialog_confirm_delete_confirm_button">Ия</string>
+    <string name="dialog_confirm_delete_cancel_button">Жоқ</string>
+
+    <string name="dialog_confirm_mark_all_as_read_title">Белгіні оқылған деп растау</string>
+    <string name="dialog_confirm_mark_all_as_read_message">Барлық хабарларды оқылған деп белгілегіңіз келе ме?</string>
+
+    <string name="dialog_confirm_mark_all_as_read_confirm_button">Ия</string>
+    <string name="dialog_confirm_mark_all_as_read_cancel_button">Жоқ</string>
+
+    <string name="dialog_confirm_spam_title">Спам қалтасына ауысуды растаңыз</string>
+    <plurals name="dialog_confirm_spam_message">
+        <item quantity="one">Сіз шынымен осы хабарды спам қалтасына жылжытқыңыз келе ме?</item>
+        <item quantity="other">Сіз шынымен <xliff:g id="message_count">%1$d</xliff:g> хабарды спам қалтасына жылжытқыңыз келе ме?</item>
+    </plurals>
+    <string name="dialog_confirm_spam_confirm_button">Ия</string>
+    <string name="dialog_confirm_spam_cancel_button">Жоқ</string>
+
+    <string name="dialog_attachment_progress_title">Бекітуді жүктеу</string>
+
+    <string name="debug_logging_enabled">Баптау журналын жүргізу қосылған</string>
+
+    <string name="messagelist_sent_to_me_sigil">»</string>
+    <string name="messagelist_sent_cc_me_sigil">›</string>
+
+    <string name="import_export_action">Импортты &amp; экспорттв баптау</string>
+    <string name="settings_export_account">Тіркелгіні экспорттау баптау</string>
+    <string name="settings_export_all">Экспорт баптаулары және тіркелгілер</string>
+    <string name="settings_import_dialog_title">Импорт</string>
+    <string name="settings_export_dialog_title">Экспорт</string> 
+    <string name="settings_import">Импортты баптау</string>
+    <string name="settings_import_selection">Импортты таңдау</string>
+    <string name="settings_import_global_settings">Жалпы баптаулар</string>
+    <string name="settings_exporting">Баптауларды экспорттау…</string>
+    <string name="settings_importing">Баптауларды импорттау…</string>
+    <string name="settings_import_scanning_file">Сканерлеу файлы…</string>
+    <string name="settings_export_success">Сақталған экспортталған параметрлер <xliff:g id="filename">%s</xliff:g></string>
+    <string name="settings_export_success_generic">Баптаулар сәтті экспортталған</string>
+    <string name="settings_import_global_settings_success">Жалпы баптаулар импортталған <xliff:g id="filename">%s</xliff:g></string>
+    <string name="settings_import_success">Импортталған <xliff:g id="accounts">%s</xliff:g> из <xliff:g id="filename">%s</xliff:g></string>
+    <plurals name="settings_import_accounts">
+        <item quantity="one">1 тіркелгі</item>
+        <item quantity="other"><xliff:g id="numAccounts">%s</xliff:g> тіркелгілер</item>
+    </plurals>
+
+
+    <string name="settings_export_failure">Баптауларды экспорттау мүмкін емес</string>
+    <string name="settings_import_failure"> <xliff:g id="filename">%s</xliff:g></string>-дан баптауларды импортам мүмкін емес
+    <string name="settings_export_success_header">Табысты экспорт</string>
+    <string name="settings_export_failed_header">Экспорттау мүмкін емес</string>
+    <string name="settings_import_success_header">Импорт сәтті болды</string>
+    <string name="settings_import_failed_header">Импорттау қатесі</string>
+    <string name="settings_import_activate_account_header">Тіркелгіні белсендіру</string>
+    <string name="settings_import_activate_account_intro">Тіркелгіні пайдалану мүмкіндігін иелену үшін \"<xliff:g id="account">%s</xliff:g>\" сізге ұсыну қажет <xliff:g id="server_passwords">%s</xliff:g>.</string>
+    <plurals name="settings_import_server_passwords">
+        <item quantity="one">сервердің құпия сөзі</item>
+        <item quantity="other">сервердің құпия сөздері</item>
+    </plurals>
+    <string name="settings_import_incoming_server">Кіріс сервері (<xliff:g id="hostname">%s</xliff:g>):</string>
+    <string name="settings_import_outgoing_server">Шығыс сервері (<xliff:g id="hostname">%s</xliff:g>):</string>
+    <plurals name="settings_import_setting_passwords">
+        <item quantity="one">сервердің құпия сөзі…</item>
+        <item quantity="other">сервердің құпия сөздері…</item>
+    </plurals>
+    <string name="settings_import_use_incoming_server_password">Кіріс серверінің құпия сөзін пайдалану</string>
+    <string name="activate_account_action">Белсендіру</string>
+
+    <string name="account_unavailable">Тіркелгі \"<xliff:g id="account">%s</xliff:g>\" қол жетімді емес; сақтау қоймасында тексеру</string>
+
+    <string name="settings_attachment_default_path">Тіркемелерді сақтау…</string>
+    <string name="attachment_save_title">Тіркемелерді сақтау </string>
+    <string name="attachment_save_desc">Файл браузері табылмады. Бұл тіркемені қайда сақтағыңыз келеді?</string>
+
+    <string name="manage_accounts_move_up_action">Жоғарыға жылжыту</string>
+    <string name="manage_accounts_move_down_action">Төмен жылжыту</string>
+    <string name="manage_accounts_moving_message">Тіркелгіні жылжыту…</string>
+
+    <string name="unread_widget_select_account">үшін оқылмаған хабарламалар санын көрсету…</string>
+    <string name="unread_widget_account_title">Тіркелгі</string>
+    <string name="unread_widget_account_summary">Хабарлардың оқылмаған санын көрсететін тіркелгі</string>
+    <string name="unread_widget_unified_inbox_account_summary">Сәйкестендірілген кіріс</string>
+    <string name="unread_widget_all_messages_account_summary">Барлық хабарламалар</string>
+    <string name="unread_widget_folder_enabled_title">Қалталардың саны</string>
+    <string name="unread_widget_folder_enabled_summary">Тек бар қалтаның оқылмаған саның көрсету</string>
+    <string name="unread_widget_folder_title">Қалта</string>
+    <string name="unread_widget_folder_summary">Оқылмаған хабарламаларды көрсету қалтасы</string>
+    <string name="unread_widget_action_done">Дайын</string>
+    <string name="unread_widget_title"><xliff:g id="account_name">%1$s</xliff:g> - <xliff:g id="folder_name">%2$s</xliff:g></string>
+    <string name="unread_widget_account_not_selected">Тіркелгі таңдалмады</string>
+    <string name="unread_widget_folder_not_selected">Қалта таңдалмады</string>
+
+    <string name="import_dialog_error_title"> Missing File Manager қосымшасы</string>
+    <string name="close">Close</string>
+ 
+    <string name="webview_empty_message">Мәтін жоқ</string>
+
+    <string name="webview_contextmenu_link_view_action">Сілтемені ашу</string>
+    <string name="webview_contextmenu_link_share_action">Сілтемемен бөлісу</string>
+    <string name="webview_contextmenu_link_copy_action">Сілтемені алмасу буферіне көшіру</string>
+    <string name="webview_contextmenu_link_clipboard_label">Сілтеме</string>
+
+    <string name="webview_contextmenu_image_title">Сурет</string>
+    <string name="webview_contextmenu_image_view_action">Суретті көру</string>
+    <string name="webview_contextmenu_image_save_action">Суретті сақтау</string>
+    <string name="webview_contextmenu_image_download_action">Суретті жүктеу</string>
+    <string name="webview_contextmenu_image_copy_action">Сурет URL мекенжайын алмасу буферіне көшіру</string>
+    <string name="webview_contextmenu_image_clipboard_label">URL суреті</string>
+
+    <string name="webview_contextmenu_phone_call_action">Нөмірді алу</string>
+    <string name="webview_contextmenu_phone_save_action">Контактілерге сақтау</string>
+    <string name="webview_contextmenu_phone_copy_action">Номірдің алмасу буферіне көшіру/string>
+    <string name="webview_contextmenu_phone_clipboard_label">Телефон нөмірі</string>
+
+    <string name="webview_contextmenu_email_send_action">Поштаны жіберу</string>
+    <string name="webview_contextmenu_email_save_action">Контактілерге сақтау</string>
+    <string name="webview_contextmenu_email_copy_action">Мкенжайды алмасу буферіне көшіру</string>
+    <string name="webview_contextmenu_email_clipboard_label">Электрондық пошта</string>
+
+    <string name="image_saved_as">Суретті қалай сақтау \"<xliff:g id="filename">%s</xliff:g>\"</string>
+    <string name="image_saving_failed">Суретті сақтау мүмкін емес.</string>
+
+    <string name="account_settings_remote_search_num_results_entries_all">Барлық</string>
+    <string name="account_settings_remote_search_num_results_entries_10">10</string>
+    <string name="account_settings_remote_search_num_results_entries_25">25</string>
+    <string name="account_settings_remote_search_num_results_entries_50">50</string>
+    <string name="account_settings_remote_search_num_results_entries_100">100</string>
+    <string name="account_settings_remote_search_num_results_entries_250">250</string>
+    <string name="account_settings_remote_search_num_results_entries_500">500</string>
+    <string name="account_settings_remote_search_num_results_entries_1000">1000</string>
+    <string name="account_settings_remote_search_num_label">Серверді іздеуді шектеу</string>
+    <string name="account_settings_remote_search_num_summary">Іздеу <xliff:g id="num_results">%s</xliff:g> нәтижелер анықталғаннан кейін тоқтатылды.</string>
+    <string name="remote_search_sending_query">Сұранымды серверге жіберу</string>
+    <plurals name="remote_search_downloading">
+        <item quantity="one">Нәтижені %d алу</item>
+        <item quantity="other"> Нәтижені %d алу </item>
+    </plurals>
+    <plurals name="remote_search_downloading_limited">
+        <item quantity="one"> Нәтижелерді %1$d of %2$d алу</item>
+        <item quantity="other"> Нәтижелерді %1$d of %2$d алу</item>
+    </plurals>
+    <string name="remote_search_error">Қашықтағы іздеу сәтсіз аяқталды</string>
+
+    <string name="account_settings_search">Іздеу</string>
+    <string name="account_settings_remote_search_enabled">Сервер іздеуді қосу</string>
+    <string name="account_settings_remote_search_enabled_summary">Серверге хабарларды іздеу құрылғыдағы қосымша ретінде.</string>
+    <string name="action_remote_search">Серверде хабарламалардв іздеу</string>
+    <string name="remote_search_unavailable_no_network">Серверді іздеу үшін желі байланысы қажет.</string>
+
+    <string name="global_settings_background_as_unread_indicator_label">Оқу түсінің өзгеруі</string>
+    <string name="global_settings_background_as_unread_indicator_summary">Басқа фон хабардың оқылғанын көрсетеді</string>
+
+    <string name="global_settings_threaded_view_label">Ағаш түрі</string>
+    <string name="global_settings_threaded_view_summary">Тізбек бойынша хабарламалар тобы</string>
+
+    <string name="upgrade_databases_title">Деректерсіз жаңарту</string>
+    <string name="upgrade_databases_unspecified">Деректерсіз жаңарту…</string>
+    <string name="upgrade_database_format">Тіркелгінің деректер базасын жаңарту  \"<xliff:g id="account">%s</xliff:g>\"</string>
+
+    <string name="global_settings_splitview_mode_label">Бөлінген экранды көрсету</string>
+    <string name="global_settings_splitview_always">Әрқашан</string>
+    <string name="global_settings_splitview_never">Ешқашан</string>
+    <string name="global_settings_splitview_when_in_landscape">Альбом бағдарында кезде</string>
+
+    <string name="message_view_empty">Сол жақтағы хабарды таңдаңыз</string>
+
+    <string name="global_settings_show_contact_picture_label">Контактілер деректерін көрсету</string>
+    <string name="global_settings_show_contact_picture_summary">Хабарлама тізімінде конактінің фотосуретін көрсету</string>
+
+    <string name="last_refresh_time_format">Жаңарту <xliff:g id="formatted_time">%s</xliff:g></string>
+    <string name="last_refresh_time_format_with_push"> Жаңарту <xliff:g id="time_with_preposition">%s</xliff:g> (Push белсенділік)</string>
+    <string name="preposition_for_date">на <xliff:g id="date">%s</xliff:g></string>
+
+    <string name="mark_all_as_read">Барлығы оқылған деп белгілеу</string>
+
+    <string name="global_settings_colorize_missing_contact_pictures_label">Контактінің фотосуреттерін бояу</string>
+    <string name="global_settings_colorize_missing_contact_pictures_summary">Контактінің жоқ фотосуреттерін бояу</string>
+
+    <string name="global_settings_messageview_visible_refile_actions_title">Көрінетін хабарламаның әрекеттері</string>
+    <string name="global_settings_messageview_visible_refile_actions_summary">Таңдалған әрекеттерді хабарларды қарау мәзірінде көрсету</string>
+
+    <string name="loading_attachment">Тіркеме жүктелуде…</string>
+    <string name="fetching_attachment_dialog_title_send">Хабарламаны жіберу</string>
+    <string name="fetching_attachment_dialog_title_save">Шимайды сақтау</string>
+    <string name="fetching_attachment_dialog_message">Міндетті алу…</string>
+
+    <string name="auth_external_error">Аутентификация сәтсіз аяқталды. Сервер SASL EXTERNAL мүмкіндігін жарнамаламайды. Бұл клиенттің сертификатымен (мерзімі өтіп кеткен, белгісіз куәліктің өкілеттігі) немесе басқа конфигурациялау мәселесімен байланысты болуы мүмкін.</string>
+
+    <!-- === Client certificates specific ================================================================== -->
+    <string name="account_setup_basics_client_certificate">Клиенттік сертификатты қолдану</string>
+    <string name="client_certificate_spinner_empty">Клиент сертификатының болмауы</string>
+    <string name="client_certificate_spinner_delete">Клиенттің сертификатын жою</string>
+    <string name="client_certificate_retrieval_failure">"Бүркеншік ат үшін клиент сертификатын алу сәтсіз аяқталды \"<xliff:g id="alias">%s</xliff:g>\""</string>
+    <string name="client_certificate_advanced_options">Кеңейтілген баптаулар</string>
+    <string name="client_certificate_expired">"Клиенттік сертификат \"<xliff:g id="certificate_alias">%1$s</xliff:g>\" мерзімі өткен немесе жарамсыз (<xliff:g id="exception_message">%2$s</xliff:g>)"</string>
+
+    <!-- Note: This references message_view_download_remainder -->
+    <string name="preview_encrypted">*Шифрланған*</string>
+    <string name="add_from_contacts">Контактілерден қосу</string>
+    <string name="recipient_cc">Көшірме</string>
+    <string name="recipient_bcc">Жасырын көшірме</string>
+    <string name="recipient_to">To</string>
+    <string name="recipient_from">Кімнен</string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
+    <string name="address_type_home">Үй</string>
+    <string name="address_type_work">Жұмыс</string>
+    <string name="address_type_other">Басқа</string>
+    <string name="address_type_mobile">Ұялы</string>
+    <string name="compose_error_no_draft_folder">«Шимай» қалтасы осы тіркелгі үшін бапталмаған!</string>
+    <string name="compose_error_no_key_configured">Осы тіркелгі үшін кілт бапталмаған.</string>
+    <string name="error_crypto_provider_incompatible">Криптопровайдер сәйкес келмейтін нұсқаны пайдаланады. Баптауларды тексеріңіз!</string>
+    <string name="error_crypto_provider_connect">Криптопровайдерге қосылу мүмкін емес, баптауларды тексеріңіз немесе әрекетті қайталау үшін криптография белгішесін басыңыз!</string>
+    <string name="error_crypto_provider_ui_required">Криптопровайдерге кіру жабық, әрекетті қайталау үшін криптография белгішесін басыңыз!</string>
+    <string name="error_crypto_inline_attach">PGP/INLINE режимі тіркемелерді қолдамайды!</string>
+    <string name="enable_inline_pgp">PGP/INLINE қосу</string>
+    <string name="disable_inline_pgp">PGP өшіру/INLINE</string>
+    <string name="enable_sign_only">PGP Sign-Only қосу</string>
+    <string name="disable_sign_only">PGP Sign-Only өшіру</string>
+    <string name="openpgp_inline_title">PGP/INLINE режимі</string>
+    <string name="openpgp_inline_text">PGP/INLINE пішімінде хат жібереді.\nОны үйлесімділік үшін пайдалану керек:</string>
+    <string name="openpgp_inline_plus_compat">Кейбір клиенттер тек осы пішімді қолдайды</string>
+    <string name="openpgp_inline_minus_transit">Қолдар транзит кезінде бұзылуы мүмкін</string>
+    <string name="openpgp_inline_minus_attach">Тіркемелер қолданылмайды</string>
+    <string name="openpgp_inline_ok">Түсіндім!</string>
+    <string name="openpgp_inline_disable">Тыйым салу</string>
+    <string name="openpgp_inline_keep_enabled">Қосулы қалдырыңыз</string>
+    <string name="openpgp_sign_only_ok">Түсіндім!</string>
+    <string name="openpgp_sign_only_disable">Тыйым салу</string>
+    <string name="openpgp_sign_only_keep_enabled">Қосулы қалдырыңыз</string>
+    <string name="openpgp_dialog_sign_only_title">PGP режимі ғана</string>
+    <string name="openpgp_dialog_sign_only_text">Бұл режимде сіздің PGP кілті шифрланбаған хат криптографиялық қолтаңбаны жасау үшін қолданылады.</string>
+    <string name="openpgp_dialog_sign_only_plus_verified">Ол электрондық хатты шифрламайды,бірақ ол сіздің кілтіңізден жіберілгенін тексереді.</string>
+    <string name="openpgp_dialog_sign_only_minus_break">Қолдар тарату тізіміне жіберу кезінде бұзылуы мүмкін.</string>
+    <string name="openpgp_dialog_sign_only_minus_attach">Қолтаңбалар кейбір клиенттер үшін \ 'signature.asc \' тіркемелері ретінде пайда болуы мүмкін.</string>
+    <string name="openpgp_dialog_sign_only_neutral_encsigned">Шифрланған хабарламалар әрқашан қолтаңбаны қамтиды.</string>
+
+    <string name="crypto_msg_disabled">Хабарлама шифрланбаған</string>
+
+    <string name="crypto_msg_encrypted_error">Хат шифрланған, бірақ шифрлеу қатесі болды.</string>
+    <string name="crypto_msg_encrypted_insecure">Хабарлама шифрланған, бірақ қауіпсіз!</string>
+    <string name="crypto_msg_signed_error">Хабарламаға қол қойылды, бірақ қолтаңбаны тексерулуі мүмкін емес.</string>
+    <string name="crypto_msg_unsupported_encrypted">Хабарлама шифрланған, бірақ қолдау көрсетілмейтін пішімде.</string>
+    <string name="crypto_msg_unsupported_signed">Хабарлама шифрланған, бірақ қолдау көрсетілмейтін пішімде.</string>
+    <string name="crypto_msg_incomplete_encrypted">Хабар шифрланған, бірақ шифрды шешу үшін толығымен жүктелуі керек.</string>
+    <string name="crypto_msg_cancelled">Хабарлама шифрланған, бірақ шифрлау жойылады.</string>
+
+    <string name="crypto_msg_signed_unencrypted">Хабарламаға қол қойылды, бірақ шифрланбаған.</string>
+    <string name="crypto_msg_encrypted_unsigned">Хабарлама шифрланған, бірақ қол қойылмаған.</string>
+
+    <string name="crypto_msg_sign_unknown">Белгісіз кілтпен жасалған қолтаңба.</string>
+    <string name="crypto_msg_sign_verified">Сенімді кілтпен жасалған қолтаңба.</string>
+    <string name="crypto_msg_sign_unverified">Сенімсіз кілтпен жасалған қолтаңба!</string>
+    <string name="crypto_msg_sign_error">Қолтаңбада қате бар.</string>
+    <string name="crypto_msg_sign_mismatch">Дұрыс емес кілтпен жасалған қолтаңба.</string>
+    <string name="crypto_msg_sign_expired">Өткен кілтпен жасалған қолтаңба</string>
+    <string name="crypto_msg_sign_revoked">Күші жойылған кілтпен жасалған қолтаңба.</string>
+    <string name="crypto_msg_sign_insecure">Қауіпсіз кілтпен жасалған қолтаңба.</string>
+    <string name="crypto_msg_sign_incomplete">Хабарлама оның қолтаңбасын тексеру үшін толық жүктелуі тиіс.</string>
+
+
+    <string name="crypto_msg_signed_encrypted">Хабарлама қол қойылған және шифрланған.</string>
+    <string name="crypto_msg_unsigned_encrypted">Қолтаңба жоқ, бұл хабарлама, мүмкін, ұстап қалынған.</string>
+
+
+    <string name="crypto_info_ok">OK</string>
+    <string name="crypto_info_view_key">Жазылушыны көру</string>
+    <string name="crypto_info_view_security_warning">толығырақ</string>
+    <string name="locked_attach_unlock">құлпын ашу</string>
+    <string name="locked_attach_unencrypted">Бұл бөлік шифрланбаған және қауіпсіз болуы мүмкін.</string>
+    <string name="locked_attach_title">Қорғалмаған тіркеме</string>
+    <string name="message_progress_text">Жүктеу…</string>
+    <string name="messageview_decrypt_cancelled">Толық жазылуы доғарылды.</string>
+    <string name="messageview_decrypt_retry">Жауап</string>
+    <string name="messageview_decrypt_incomplete">Шифрланған хабарды шифрды ашу үшін жүктеу қажет.</string>
+    <string name="messageview_crypto_error_title">Электрондық поштаны шифрлеу қатесі</string>
+
+    <string name="messageview_crypto_warning_title">Қауіпсіздікті ескерту</string>
+    <string name="messageview_crypto_warning_revoked">Бұл хат < b> қайтарылып алынған кілтпен қол қойылды</b></string>
+    <string name="messageview_crypto_warning_expired">Бұл хат < b>өткен кілттің көмегімен қол қойылды!</b></string>
+    <string name="messageview_crypto_warning_insecure">Бұл хабарлама қауіпсіз кілтпен қол қойылды!</b></string>
+    <string name="messageview_crypto_warning_error">Бұл хабардың қолтаңбасында қате пайда болды!</b></string>
+    <string name="messageview_crypto_warning_unsigned">Бұл хат шифрланған, бірақ қол қойылмаған. Бұл < b> шифрлау емес</b>!</string>
+    <string name="messageview_crypto_warning_show_anyway">Хабарды кез келген жағдайда көрсету</string>
+    <string name="recipient_error_parse_failed">Мекенжайды талдау қатесі!</string>
+    <string name="account_settings_crypto_support_sign_only">Шифрланбаған қолтаңбаларды көрсету</string>
+    <string name="account_settings_crypto_support_sign_only_on">Шифрланбаған қолтаңбалар бейнеленеді</string>
+    <string name="account_settings_crypto_support_sign_only_off">Шифрланбаған қолтаңбалар еленбейді.</string>
+    <string name="error_sign_only_no_encryption">Шифрлау тек кіру режимінде қол жетімді емес!</string>
+    <string name="unsigned_text_divider_label">Қол қойылмаған мәтін</string>
+    <string name="apg_deprecated_title">APG толық болмауы туралы ескерту</string>
+    <string name="apg_deprecated_1">APG енді қолдамайды!</string>
+    <string name="apg_deprecated_2">Осыған байланысты, APG-ді қолдау DataMail-дан жойылды..</string>
+    <string name="apg_deprecated_bullet_1">Даму 2014 жылдың басында тоқтатылды</string>
+    <string name="apg_deprecated_bullet_2">Қауіпсіздіктің өзекті мәселелерін қамтиды</string>
+    <string name="apg_learn_more">Қосымша ақпарат алу үшін <a href="https://k9mail.github.io/2017/01/13/Why-APG-is-no-longer-supported.html"> мұнда басыңыз.</string>
+    <string name="apg_deprecated_ok">Түсіндім!</string>
+    <string name="apg">APG</string>
+    <string name="no_crypto_provider_see_global">OpenPGP бағдарламасы бапталмаған, жалпы баптамаларды қараңыз!</string>
+    <string name="crypto_no_provider_title">Осы электрондық хат шифрланған</string>
+    <string name="crypto_no_provider_message">Осы электрондық хат OpenPGP көмегімен шиффрланған.\nОны оқу үшін, үйлесімді OpenPGP қосымшасын орнату және баптау қажет.</string>
+    <string name="crypto_no_provider_button">OpenPGP қосымшасын таңдаңыз</string>
+
+    <string name="mail_list_widget_text">DataMail хабарламалардың тізімі</string>
+    <string name="mail_list_widget_loading">Хабарламаларды жүктеу…</string>
+    <string name="fetching_folders_failed">Алушылар тізімінің жаңылысы</string>
+    <string name="messageview_crypto_warning_details">Мәліметтерді көрсету</string>
+    <string name="error_recipient_crypto_retrieve">OpenPGP провайдерінен алушы мәртебесін алу қатесі!</string>
+
+    <string name="openpgp_enabled_error_title">Шифрлау мүмкін емес</string>
+    <string name="openpgp_enabled_error_msg">Таңдалған алушылардың кейбірі осы мүмкіндікті қолдамайды!</string>
+    <string name="enable_encryption"> Шифрлауды қосу</string>
+    <string name="disable_encryption">Шифрлауды өшіру</string>
+    <string name="openpgp_description_text1">Хабарламаларды шифрлау оларды алушы және басқа ешкім оқи алатынына кепілдік береді. </string>
+    <string name="openpgp_description_text3">Шифрлау барлық алушылардың қолдауымен ғана көрсетіледі және олар сізге электрондық хат жіберу керек болды.</string>
+    <string name="openpgp_description_text2">Осы белгішені басу арқылы шифрлауды қайта қосыңыз.</string>
+    <string name="openpgp_enabled_error_gotit">Түсіндім</string>
+    <string name="openpgp_enabled_error_back">Артқа</string>
+    <string name="openpgp_enabled_error_disable">Шифрлауды өшіру</string>
+    <string name="openpgp_encryption">OpenPGP Шифрлау</string>
+    <!--*************************************************************************************************************************************-->
+    <!-- ***********************************************Datamail String *********************************************************************-->
+    <!--*************************************************************************************************************************************-->
+    <!-- all activity title-->
+    <string name="label_choose_language">Тілді таңдаңыз</string>
+    <string name="label_login_signup">Кіру/Тіркелу</string>
+    <string name="label_create_user_title">Пайдаланушы атын жасау</string>
+    <string name="label_create_alias">Бүркеншік атын жасау</string>
+    <string name="label_verify_otp">OTP арқылы тексеру </string>
+    <string name="label_verify_number">SMS арқылы тексеру </string>
+    <string name="label_send_message">@string/Хабарламаны жіберу</string>
+    <string name="label_contact_us">Бізбен байланысу</string>
+    <string name="label_faqs">Сұрақтар және жауаптар</string>
+    <string name="label_about_us">Біз туралы</string>
+    <string name="label_web_login">@string/Автоматты авторландыру</string>
+    <string name="label_notification_setting">Хабарламаларды баптау</string>
+    <string name="label_dataradio_msg">DataRadio хабарламалары</string>
+    <string name="label_dataradio_channels">DataRadio арналары</string>
+    <string name="label_tune_channel">Арнаны баптау</string>
+    <string name="label_create_channel">Арнаны құрастыру</string>
+    <string name="label_data_radio">@string/хабарламаны жіберу</string>
+    <string name="label_secret_keeper">@string/Құпия сақтау орны</string>
+    <string name="label_sk_add">Құпияны қосу</string>
+    <string name="label_sk_fingerprint">Баптаулар</string>
+    <string name="label_sk_login">Құпия сақтау қоймасына кіру</string>
+    <string name="label_sk_verify_otp">OTP тексеру </string>
+    <string name="label_sk_all_secrets">Барлық құпиялар</string>
+    <string name="label_sk_show_msg">Data Radio хабарламалар</string>
+    <string name="label_sk_reply">Data Radio жауап</string>
+    <string name="label_check_notif">@string/барлық хабарламаларды тексеру</string>
+    <string name="label_account_info">Тіркелгі туралы ақпарат</string>
+
+
+    <string name="err">Қате!</string>
+    <string name="info">Ақпарат!</string>
+    <string name="ok">OK</string>
+    <string name="bsnl_customer">Мен BSNL кең жолақты клиентімін</string>
+    <string name="ll_number">Жерүсті байланыс желісінің нөмірі</string>
+    <string name="delete_account">Тіркелгіні жою</string>
+    <string name="change_mobile_number">Телефон нөмірін ауыстыру</string>
+    <string name="create_user_title">Бүркеншік атып еңгізіңіз</string>
+    <string name="imp_note_alias_tag">Маңызды ақпарат</string>
+    <string name="impalias_note">Осы қосымшадан шығудың қажеті жоқ. Сіз жаңа хат келгенде хабарлама аласыз, қолдау үшін рахмет. Үндістанда жасалған</string>
+    <string name="about_alias_text">Сіз ағылшын тілінде (латынша) Datamail идентификаторын құрдыңыз, енді сіздің тіліңізде электрондық поштаның бүркеншік атын жасай аласыз, сонымен қатар ағылшын тілінен басқа, сіз орыс және қазақ тілдерінде жасай аласыз. Бұл электрондық пошта идентификаторын ағылшын электрондық пошта мекенжайыңыз сияқты пайдалануға болады. Сіз өзіңіздің логиніңізбен және құпия сөзіңізбен кіріп, сіздің тіліңіздегі барлық хабарламаларды аласыз..</string>
+    <string name="new_email_text">Сіздің электрондық пошла мекенжайыңыз <![CDATA[<b><xliff:g id="email_id">%s</xliff:g></b>]]>.\nЖаңа электрондық пошта идентификаторымен достарыңызбен және отбасыңызбен бөлісу үшін, "Қосу" басыңыз<![CDATA[<b>Share</b>]]> Басыңыз.</string>
+    <string name="share">Бөлісу</string>
+    <string name="option_help">Еркерту. Кез келген опция туралы білу үшін ұстап тұрыңыз.</string>
+    <string name="email_share_text_new"> <xliff:g id="email_id">%s</xliff:g> сияқты тегін электрондық пошта мекенжайын алыңыз.Қосымшаны жүктеу <a href="https://datamail.page.link/app">1`s://datamail.page.link/app</a></string>
+    <string name="no_default_settings">Бізде осы тіркелгі үшін әдепкі баптаулар жоқ!</string>
+
+    <string name="notif_day_one">Электрондық поштаның бүркеншік аты: Құттықтаймыз, сіздің электрондық поштаның бүркенщік атына құқығыңыз бар. Сізде ағылшын тілінде <xliff:g id="email_id">%s</xliff:g> электрондық пошта идентификаторы бар, алайда, енді электрондық пошта бүркеніш функциясын пайдаланып, өз тіліңізде электрондық пошта идентификаторын көрсете аласыз, мысалы: орыс, қазақ.</string>
+
+    <string name="notif_day_two">Құпия сөз: пDataMail қосымшасы құпия сөзді қажет етпейді және сіздің ұялы нөміріңіз бен OTP автоматты түрде қорғалады. Сіздің сәлемдеме хатта көрсетілген уақытша құпия сөз арқылы веб-поштаға кіре аласыз, егер сіз оны жоғалтсаңыз, https://mail.datamail.in парақшасына өтіп,  "Құпия сөзді ұмыттыңыз" таңдап, нұсқауларды орындаңыз. Назар аударыңыз: 1) ұялы қолданба арқылы құпия сөзді өзгерте алмайсыз және біздің қолдау қызметінің құпия сөзіңізді өзгертуге құқығы жоқ. 2) Datamail командасы ешқашан құпия сөзді сұрамайды. 3) Интернетте сіздің құпия сөзіңізді өзгерткен кезде, ұялы телефоныңызда datamail бағдарламасына өтіңіз.
+</string>
+    <string name="notif_day_three">Веб-пошта: сіз өз сәлемдеме хатыңызда уақытша құпия сөзді алдыңыз, егер сіз оны жоғалтсаңыз, https://mail.datamail.in парақшасына өтіп,  "Құпия сөзді ұмыттыңыз" таңдап, нұсқауларды орындаңыз. Назар аударыңыз кез келген уақытта Интернетте сіздің құпия сөзіңізді өзгерткен кезде, сіздің ұялы телефоныңызда datamail бағдарламасына кіруді қайталаңыз.
+</string>
+    <string name="notif_day_four">Жарнаманы жою: Егер Если DataMail қосымшасында жарнаманы қаламасңыз, datamail қосымшасындағы "мәзір" түймесін басып, «Жарнаманы жою» опциясын басыңыз. Сіз 7 күндік тегін сынақ нұсқасын пайдалана алатын тілқатысу терезесін аласыз. </string>
+    <string name="notif_day_five">Тіл: DataMail 12 тілін қолдайды және кез келген уақытта DataMail бағдарламасын қолайлы тілде пайдалануға болады. Datamail қосымшасындағы «мәзір» түймесін таңдап, «Тіл» түймесін басыңыз. Сондай-ақ, электрондық поштаға жауап беру/жазу кезінде KEYBOARD белгішесін басу арқылы басқа тілді қолдануға болады. 
+</string>
+    <string name="notif_day_six">Хабарлама
+Сіз жаңа пошта туралы хабарламаны пошта және радио арқылы хабарлама аласыз. Ескертулерді қосқыңыз / өшіргіңіз келсе, мәзірге өтіңіз -- > Баптаулар --> ескертулер--> және мұнда қалауыңызды орнатыңыз.</string>
+    <string name="notif_day_seven">Таңдаулы идентификатор: ағымдағы DataMail идентификаторын ұнатпасаңыз, оны <xliff: g id = «email_id»>% s </ xliff: g> жоюға және өзіңіз үшін жаңа идентификаторды алуға болады. Тек осы бейнені көріп, оны қалай жасау керектігін көріңіз. Назар аударыңыз, ағымдағы идентификатордағы барлық электрондық пошта хабарлары жоғалады.</string>
+    <string name="choose_username">Пайдаланушы атын таңдаңыз</string>
+    <string name="chng_kbd_type">Пернетақта түрін өзгерту</string>
+    <string name="chng_kbd_txt">Хинди және ағылшын тілінен Хинди пернетақтасына пернетақта түрін өзгерту үшін осы батырманы баса аласыз.</string>
+    <string name="enter_username">Пайдаланушы атын енгізіңіз!</string>
+    <string name="err_language_text"> <xliff:g id="lang">%s</xliff:g> еңгізіңіз. Пайдаланушы атында тек \'.\',\'_\' және \'-\' рұқсат етілген. \n\nПернетақта тілін қалай өзгертуге болады\n\Баптаулар\nТіл  &amp; Кіру\nПернетақтаны және енгізу әдісін жаңарту</string>
+    <string name="no_internet">Интернетке қосылуды тексеріңіз</string>
+    <string name="about_alias">Бір тіркелгі екі ID электрондық пошта</string>
+    <string name="create_now">Қазір жасау</string>
+    <string name="select_domain">Доменді таңдаңыз</string>
+    <string name="skip_now">Өткізу</string>
+    <string name="resend_otp">OTP қайта жіберу</string>
+    <string name="verify_otp">OTP тексеру</string>
+    <string name="otp">OTP</string>
+    <string name="enter_otp">OTP еңгізіңіз</string>
+    <string name="otp_mismatch">OTP сәйкессіздігі</string>
+    <string name="sms_veri_msg">Без сіздің нөміріңізді растай алмаймыз.</string>
+    <string name="retry">Жауап</string>
+    <string name="domain_name">Домендік атау</string>
+    <string name="country_code">Елдің коды</string>
+    <!-- data radio option menu strings -->
+    <string name="sendMessage">Хабарлама жіберу</string>
+    <string name="receivedMessage">Алынған хабарлама/string>
+    <string name="tuneChannel">Арнаны баптау</string>
+    <string name="help">Көмек</string>
+    <string name="channels">Арналар</string>
+    <string name="selectVikalp">Опцияны таңдаңыз</string>
+    <string name="write">Жазу</string>
+    <string name="speak">Айту</string>
+    <string name="sendPic">Суретті жіберу</string>
+    <string name="txt_msg_picmessage">Хабарламаның суреті</string>
+    <string name="recieved_messages">Алынған хабарламалар</string>
+    <string name="select_channel_spinner">Арнаны таңдаңыз</string>
+    <string name="date_">Күні</string>
+    <string name="alert">Сергек болу</string>
+    <string name="alert_audio_content">Алдыңғы файл жойылады, жалғастырғыңыз келе ме?</string>
+    <string name="select_picture_first">Көру үшін фотосуретті таңдаңыз</string>
+    <string name="subject">Тақырып</string>
+    <string name="typehere11">Осында еңгізіңіз</string>
+    <string name="broadcast11">Бағдарлама</string>
+    <string name="mictext11"> Дауыстық хабарды жазуды бастау немесе тоқтату үшін Mic түймесін басыңыз</string>
+    <string name="radio_shareown">DataRadio арнасына арналған  <xliff:g id="groupnname">%s</xliff:g> атты <a href="https://datamail.page.link/app">https://datamail.page.link/app</a></string> жүктедім.
+    <string name="txt_second">Екінші</string>
+    <string name="txt_filter_readio_msg">Сүзгілеу хабарламалары жоқ</string>
+    <string name="txt30_review">Шолу</string>
+    <!-- ************** -->
+    <string name="youtube_channel">Бейне сабақтар</string>
+    <string name="create_channel">Арнаны жасау</string>
+    <string name="txt_msg_textmessage">Хабарламаның мәтіні</string>
+    <string name="txt_msg_voicemessage">Дауыстық хабарлама</string>
+    <string name="txt_broadcast_successful">Кең таратылған бағдарлама</string>
+    <string name="no_listeners">Бұл арнада тыңдаушылар жоқ.</string>
+    <string name="txt_choosefilefirst">Хабарды жазыңыз немесе оны галереяға қосыңыз</string>
+
+    <string name="txt30_channelnameempty">Арнаның атауын еңгізіңіз</string>
+    <string name="txt30_maxlimitreached">Сіз ең көп 10 арналарды құрастыра аласыз</string>
+
+
+    <string name="txt30_cnfdeletegroup">Бұл құрылған арнаны жойғыңыз келетіне ме?</string>
+
+
+    <string name="txt30_review_confirmgroup">Сіз <xliff:g id="groupnname">%s</xliff:g> DataMail арнасын сәтті құрдыңыз. Көрермендер мен тыңдаушыларды қазір шақырыңыз</string>
+    <string name="txt30_not_now">Қазір емес</string>
+    <string name="reply_none">Ешкім жауап бере алмайды</string>
+    <string name="reply_all_" tools:ignore="Typos">Барлығына рұқсат беру\n (электрондық пошта ID аудиторияға көрсетіледі және сіз аудиториядан электрондық поштаңызға жауап аласыз)</string>
+    <string name="reply_title_">Кім жауап бере алады</string>
+    <string name="channel_name">Арна атауы</string>
+    <string name="create">Құру </string>
+    <string name="tune">Баптау</string>
+    <string name="sent_messages">Хабарлама жіберу</string>
+
+
+    <string name="delete_cnf_message_allsendmsg">Бұл хабарламаны жойғыңыз келетініне сенімдісіз бе?</string>
+    <string name="reply_here_">Хабарлама</string>
+    <string name="reply_button_">Қазір жауап беру</string>
+
+    <string name="tuned_channels">Tuned Channels</string>
+    <string name="created_channels">Created Channels</string>
+    <string name="change_language">Тілді өзгерту</string>
+    <string name="display_name">Көрсетілетін аты</string>
+    <string name="about_us">Біз туралы</string>
+    <string name="contact_us">Бізбен байланысу</string>
+    <string name="logout">Шығу</string>
+    <string name="create_alises">Бүркеншік</string>
+    <string name="notification_setting_text">Хабарлама</string>
+    <string name="all_check_notifications">Тексеру</string>
+
+    <string name="batch_remove_ads">Жарнаманы алып тастау/string>
+    <string name="secret_keeper">Құпия сақтайтын орын</string>
+    <string name="datamail_radio">Data Radio</string>
+    <string name="not_spoorted">Қазіргі уақытта бұл тілді қолдау қол жетімді емес.</string>
+    <string name="data_radio_notif">Data Radio Хабарламалары </string>
+    <string name="email_notif">Электрондық поштаның хабарламалары</string>
+    <string name="email_delivery_notif">Электрондық пошатаны жеткізу туралы хабарлама</string>
+    <string name="password_notif">Құпия сөз хабарламасы</string>
+    <string name="contactus_message_hint">Хабарламаңызды осында еңгізіңіз.</string>
+    <string name="submit">Жіберу</string>
+    <string name="cntct_chng_pwd_help">&lt;b&gt;Құпия сөзді өзгерту:&lt;/b&gt; &lt;br&gt;
+         &lt;b&gt;Mobile:&lt;/b&gt;Сізге құпия сөз қажет емес, ол сіздің ұялы телефоныңыздың нөмірі мен OTP автоматты түрде қорғалған.&lt;br&gt;&lt;br&gt;
+         &lt;b&gt;Web:&lt;/b&gt; Сіз өз сәлемдеме хатыңызда уақытша құпия сөзді алдыңыз, егер сіз оны жоғалтсаңыз, https://mail.datamail.in парақшасына өтіп,  "Құпия сөзді ұмыттыңыз" таңдап, нұсқауларды орындаңыз.&lt;br&gt;&lt;br&gt;
+         &lt;b&gt;Note:&lt;/b&gt;Сіз құпия сөзді ұялы қосымша арқылы өзгерте алмайсыз және біздің клиенттік қолдау құпия сөзді өзгертуге құқығы жоқ. Datamail командасы ешқашан құпия сөзді сұрамайды.</string>
+    <string name="txt_contact_query">Сұрауыңызды енгізіңіз</string>
+    <string name="powered_by">Жетекші</string>
+    <string name="credits">несиелер</string>
+    <string name="auto_login">Жүйеге кіру</string>
+    <string name="auto_login_btn_txt">Веб кіру кодын құрастыру</string>
+
+
+    <string name="auto_login_part_one">Ашыңыз</string>
+    <string name="auto_login_part_two">Компьютерде / ноутбук Браузер және APP арқылы кіріңіз</string>
+    <string name="auto_login_link">m.datamail.in</string>
+    <string name="auto_login_title">Қауіпсіз және қарапайым веб кіру қызметі</string>
+    <string name="auto_login_title_">Бұл кодты веб-браузерге енгізіңіз</string>
+    <string name="auto_login_title_1">(Код тек 20 секунд жарамды болады)</string>
+
+    <string name="verify">Ұялы телефон нөмірін растаңыз r</string>
+    <string name="enter_number">Ұялы телефон нөмірін еңгізіңіз</string>
+    <string name="send_OTP">OTP жіберу</string>
+    <string name="failed_to_send_otp">OTP жіберу мүмкін болмады</string>
+    <string name="enter_your_OTP_received">Ұялы телефоныңызда алынған OTP енгізіңіз</string>
+    <string name="set_your_passkey">Құпия сөзіңізді орнатыңыз</string>
+    <string name="passkey_text">Құпия сөз-барлық маңызды мәліметтерді қорғайтын бір басты құпия сөз.</string>
+    <string name="enter_passkey">Passkey еңгізіңіз</string>
+    <string name="confirm_passkey">Құпия сөзді растау</string>
+    <string name="set_passkey">Құпия сөзді орнату</string>
+    <string name="fingerprint_text">Міне, сіз қазір немесе мүмкін кейінірек баптаулардан қосуға болатын маңызды баптаулардың кейбірі</string>
+    <string name="fingerprint_text2">Құпия сақтағышты pin кодының орнына саусақ ізімен қорғаңыз. <b>бірақ сіз PIN кодын ешқашан ұмытпаңыз.</b> </string>
+    <string name="fingerprint">Саусақ ізі</string>
+    <string name="login_to_account">Тіркелгіңізге кіріңіз</string>
+    <string name="password">Құпия сөз :</string>
+    <string name="reset_passkey">Құпия сөзді қалпына келтіру</string>
+
+    <string name="reset_passkey_dialog_message">Құпия сөзді қалпына келтіру тіркелгіден барлық құпияларды жояды</string>
+    <string name="wrong_password">Қате құпия сөз</string>
+    <string name="register_at_least_one_fingerprint_in_settings">Баптауларда ең болмағанда бір саусақ ізін тіркеңіз</string>
+    <string name="lock_screen_security_not_enabled_in_settings">Қауіпсіздік экранын бұғаттау баптауларда қосылмаған</string>
+    <string name="fingerprint_authentication_failed">Саусақ ізін анықтау қатесі</string>
+    <string name="authorize_using_fingerprint">Саусақ ізімен авторландыру</string>
+    <string name="passkey_title">Маңызды !</string>
+    <string name="passkey_alert_msg">Құпия сөзіңізді ешқашан ұмытпаңыз. Егер сіз құпия сөзіңізді ұмытып қалсаңыз, барлық деректеріңіз жойылады..</string>
+    <string name="no_secrets_store">Құпиялар сақталмайды</string>
+    <string name="no_radio_message">О жоқ! Мұнда\ ештеңе жоқ</string>
+    <string name="secret_detail">Құпия бөлшек</string>
+
+
+
+    <string name="last_modified">Соңғы өзгеріс</string>
+    <string name="share_your_secret_with">Құпиямен бөлісіңіз</string>
+    <string name="service_name">Құпия аты</string>
+    <string name="service_detail">Құпия бөлшек</string>
+
+    <string name="detail_text">Пайдаланушы аты: \n \nҚұпия сөз : \n \nURL : \n \nҚұпия сұрақ : \n \nЖауап:</string>
+    <string name="save">Сақтау</string>
+    <string name="query_sent_message">Хабарлама сәтті жіберілді, біз Сізбен жақын арада хабарласамыз.</string>
+    <string name="delet_secret_message">Сіз шынымен құпияны жойғыңыз келе ме?</string>
+    <string name="confirmation">Растау</string>
+    <string name="confirm_logout">Жүйеден шыққан кезде\ электрондық поштаны ала алмайсыз. Электрондық хаттарды алу үшін қайтадан жүйеге кіру керек, сіз шынымен шығуды қалайсыз ба?</string>
+
+    <string name="get_otp">OTP алу</string>
+    <string name="send_sms">SMS жіберу</string>
+    <!-- validation error messages-->
+    <string name="error_mobile_no">Жарамды телефон нөмірін еңгізіңіз</string>
+    <string name="error_STD_code">STD кодын еңгізіңіз</string>
+    <string name="error_landline_no">Телефон нөмірін еңгізіңіз</string>
+    <string name="error_alias_name">Бүркеншік атын таңдаңыз</string>
+    <string name="error_select_domin">Доменді таңдаңыз</string>
+    <!--end-->
+
+    <string name="signup">Тіркелу</string>
+    <string name="communicate">Байланыс</string>
+    <string name="quick_actions">Жылдам әрекеттер</string>
+    <string name="sorry">Кешіріңіз!</string>
+    <string name="sorry_">Нөмір DataMail тіркелгісімен байланыстырылған, басқа ұялы телефон нөмірін көріңіз!</string>
+    <string name="acc_del_str1">Сіздің электрондық поштаның ағымдағы ID</string>
+    <string name="acc_del_str2">және барлық электрондық хаттар мәңгі жойылады. Сіз өз тіркелгісін шынымен жойғыңыз келе ме?</string>
+    <string name="email_id">электрондық поштаның ID </string>
+    <string name="txt_show_details">Бөлшектерді көрсету</string>
+    <string name="txt_hide_details"> Бөлшектерді жасыру</string>
+    <string name="txt_verify_sms1">Біз сіздің ұялы телефон нөмірін анықтадық</string>
+    <string name="txt_verify_sms2">Сіз DataMail тіркелгіңізге осы ұялы телефон нөмірін пайдаланғыңыз келе ме?</string>
+    <string name="std_code">STD</string>
+    <string name="created_alias">Құрастырылған бүркеншік аты</string>
+    <string name="file_already_exist">Файл бұрыннан жүктелген</string>
+    <string name="file_download_success">Файл жүктелген</string>
+</resources>
+
+------------------------------------------
+------------------------------------------
+------------------------------------------
+"Key" (for developer use) = "Мәні" (Need to be converted)
+
+ 
+
+"DMKChoose_Language" = "Тілді таңдаңыз";
+
+"DMKSelect_Language" =  "Тілді таңдау";
+
+"DMKMobile_Number" = "Тексеру үшін ұялы телефон нөмірін еңгізіңіз";
+
+"DMKEnter_Mobile_Number" = "Нөмірді еңгізіңіз";
+
+"DMKGet_OTP" = "OTP алу";
+
+"DMKEnter_OTP_Here" = "OTP осында еңгізіңіз";
+
+"DMKEnter_OTP" = "OTP еңгізіңіз";
+
+"DMKSubmit" = "Жіберу";
+
+"DMKResendOTP" = "OTP алу";
+
+"DMKValidate_OTP" = "OTP тексеру";
+
+ 
+
+"DMKValid_Mobile_Number_Warning" = "Жарамды ұялы телефон нөмірін еңгізіңіз";
+
+"DMKOTP_Warning" = "OTP еңгізіңіз";
+
+"DMKIncorrect_OTP" = "OTP дұрыс емес";
+
+ 
+
+"DMKSelect_Username_And_Domain" = Пайдаланушы алтын және доменді таңдаңыз";
+
+"DMKEnter_UserName" = "Пайдаланушы атын еңгізіңіз";
+
+"DMKSelect_Domain" = "Доменді таңдаңыз";
+
+ 
+
+"DMKUser_Name_Warning" = "Пайдаланушы атын еңгізіңіз";
+
+"DMKSelect_Domain_Warning" = "Доменді еңгізіңіз";
+
+ 
+
+"DMKSecretKeepr" = "Құпия сақтаушы";
+
+"DMKInbox" = "Кіріс";
+
+"DMKAttachments" = "Тіркеме";
+
+"DMKSent" = "Жіберілді";
+
+"DMKOutbox" = Шығыс";
+
+"DMKTrash" = "Себет";
+
+"DMKSettings" = "Баптаулар";
+
+"DMKAboutUs" = "Біз туралы";
+
+"DMKContact_Us" = "Бізбен байланысу";
+
+"DMKLogout" = "Шығу";
+
+"DMKWebLogin" = "Жүйеге кіру";
+
+ 
+
+"DMKSearch" = "Іздеу";
+
+"DMKCancel" = "Доғару";
+
+"DMKDone" = "Дайын";
+
+"DMKEdit" = "Өңдеу";
+
+"DMKNo_Items_To_Display" = "Көрсету элементтері жоқ";
+
+"DMKChecking_For_Mails" = "Поштаны тексеру";
+
+"DMKLast_Updated_On"  = "Соңғы жаңарту";
+
+ 
+
+"DMKFrom" = "Кімнен";
+
+"DMKTo" = "кімге";
+
+"DMKCc" = "көшірме";
+
+"DMKBcc" = "Жасырын көшірме";
+
+"DMKCc\Bcc" = "Көшірме\Жасырын";
+
+"DMKSubject" = "Тақырып";
+
+"DMKNo_Subject" = "Тақырып жоқ//"DMKAttachments" = "Тіркеме";
+
+"DMKAttach_File" = "Файлды бекіту";
+
+"DMKAt" = "кімге";      //(Ex. - 05 сент 2016 в 11.10)
+
+ 
+
+"DMKInfo_Not_Avalaible" = "Ақпарат қол жетімді емес";
+
+"DMKNo_Recipient" = "Пайдаланушы жоқ";
+
+"DMKNo_Preview" = "Алдын ала қарау қол жетімді емес";
+
+ 
+
+"DMKDelete_Message" = "хабарламаны жою";
+
+"DMKReply" = "Жауап беру";
+
+"DMKReply_All" = "Барлығына жауап беру";
+
+ 
+
+"DMKDelete" = "Жою";
+
+"DMKPreview" = "Алдын ала қарау";
+
+ 
+
+"DMKCompose" = "Жазу";
+
+"DMKDiscard" = "Тастау";
+
+"DMKSend" = "Жіберу";
+
+"DMKMail_Sent" = "Хат жіберілді";
+
+"DMKMail_Sending" = "Хат жіберуліде";
+
+ 
+
+"DMKLogout_Warning" = "Жүйеден шығу ағымдағы пайдаланушының барлық деректерін жояды. Сіз жүйеден шыққыңыз келе ме?";
+
+"DMKYes" = "Ия";
+
+"DMKNo" = "Жоқ";
+
+"DMKRetry" = "Жауап беру";
+
+ 
+
+"DMKWarning" = "Ескерту";
+
+"DMKOK" = "OK";
+
+"DMKConfiguration_Warning" = "Конфигурацияға қолдау көрсетілмейді. Орнату үшін желілік провайдерге хабарласыңыз.";
+
+"DMKConnection_Warning" = "Интернетке қосылу табылмады. Тағы да көріңіз.";
+
+"DMKARC_Warning" = "Белсенді құрылғы шектеулі! Осы құрылғыны тіркеуге рұқсат беру үшін әкімшілікке хабарласыңыз.";
+
+"DMKInvalid_User_Warning" = "Пайдаланушы аты немесе құпия сөз қате.";
+
+"DMKUnknown_Warning" = "УУУПС! Бірдеңе дұрыс емес. Әрекетті қайталаңыз";
+
+"DMKFolder_Missing_Warning" = Қалта серверде табылмады.";
+
+"DMKMessage_Already_Deleted" = "УУУПС! Бұл хабарлама серверден жойылды";
+
+ 
+
+"DMKConnection_Warning_Outbox" = "Интернетке қосылу табылмады. Пошта «Шығыс»қалтасында сақталады.";
+
+ 
+
+
+"DMKMail_Limit_Warning1" = "Күн сайынғы лимит артты! Енді сіз тек поштаны жібере аласыз";
+
+"DMKMail_Limit_Warning2" = "алушыға.";
+
+"DMKRecipient_Limit_Warning1" = "Тым көп алушылар! Электрондық пошта жіберілуі мүмкін ";
+
+"DMKRecipient_Limit_Warning2" = "бір уақытта.";
+
+"DMKDaily_Limit_Exeeded" = "Сіздің күнделікті хабарламаңыздың лимиті асып кетті. Ертең әрекетті қайталаңыз.";
+
+ 
+
+"DMKShare" = "Бөлісу";
+
+"DMKShare_Text1" = "Менің электрондық поштаның жаңа мекенжайы";
+
+"DMKShare_Text2" = "Сондай-ақ, datamail.in сіздің қалаған тілін алыңыз";
+
+"DMKShare_EmailId" = "Электрондық пошта мекенжайыңызбен бөлісіңіз";
+
+"DMKOTP_Received" = "OTP алынды";
+
+ 
+
+"DMKON" = "Қосылды";
+
+"DMKWrote" = "Жазылды";
+
+"DMKPrivacy_Policy" = "құпиялылық саясаты";
+
+ 
+
+"DMKCountry_Code" = "Елдің коды";
+
+"DMKCountry_Code_Warning" = "Елдің кодын еңгізіңіз!";
+
+ 
+
+"DMKSend_SMS" = "SMS жіберу";
+
+"DMKResend_SMS" = "SMS жіберу";
+
+"DMKInformation" = "Ақпарат!";
+
+"DMKCarrier_String" = "SMS тасымалдау үшін алымдар алынуы мүмкін, сіз жалғастырғыңыз келе ме?";
+
+"DMKRe_Validate" = "Растау";
+
+"DMKInvalid_SMS_Code" = "SMS табылды, бірақ код жарамсыз!";
+
+ 
+
+"DMKPlease_Type_In" = "Ағылшын тілін енгізіңіз";
+
+"DMKChange_Keyboard" = "Пернетақтаны өзгерту";
+
+ 
+
+"DMKUpdate_Mobile_Number" = "Ұялы телефон нөмірін жаңарту";
+
+"DMKUpdate" = "Жаңарту";
+
+"DMKDelete_Account" = "Удалить аккаунт";
+
+"DMKMobile_Already_Registered" = "Ұялы нөмір басқа пошта идентификаторымен тіркелген. Басқа нөмірмен әрекетті қайталаңыз.";
+
+ 
+
+"DMKValid_UserName" = "Пайдаланушының жарамды атын еңгізіңіз";
+
+"DMKMobile_Numnber_Updated" = "Ұялы телефон нөмірі сәтті жаңартылды";
+
+ 
+
+"DMKDelete_Account_Message" = "Сіздің ағымдағы электрондық пошта идентификаторы: xxxxxxxxxx және осы идентификатордың барлық электрондық хаттары мәңгі жойылады. Сіз шынымен тіркелгіңізді жойғыңыз келе ме?";
+
+ 
+
+"DMKRetry_After_Seconds" = "30 секундтан кейін әрекетті қайталаңыз";
+
+"DMKContact_Service_Provider" = "Қате кетті, қызмет провайдеріне хабарласыңыз";
+
+ 
+
+//About Us Page
+
+"DMKPowered_By" = "Қолдау арқылы";
+
+"DMKCredits" = "сеніммен";
+
+ 
+
+//Contact Us Page
+
+"DMKPlease_Enter_Your_Message_Here" = "Хабарламаңызды осында енгізіңіз";
+
+"DMKSend_Message" = "Хабарлама жіберу";
+
+"DMKSending_Message_Please_Wait" = "Хабарлама жәберуліде, күте тұрыңыз";
+
+"DMKMessage_Submitted_Successfully" = "Хабарлама сәтті жіберілді, біз Сізбен жақын арада хабарласамыз";
+
+ 
+
+//Display Name
+
+"DMKDisplay_Name" = "Көрсетілетін аты";
+
+"DMKChange_Display_Name" = "Көрсетілетін атты өзгерту";
+
+ 
+
+//BSNL Strings
+
+"DMKBSNL_Broadband_User" = "Мен BSNL Broadband клиентімін ";
+
+"DMKEnter_Landline_Number" = "BSNL жердегі байланыс желісінің нөмірін енгізіңіз";
+
+"DMKSTD_Code" = "STD Коды";
+
+"DMKLandline_Number" = "Жерүсті байланыс желісінің нөмірі";
+
+"DMKError_STD_Code" = "Жарамды STD кодын енгізіңіз.";
+
+"DMKError_Landline_Number" = "Жарамды телефон нөмірін көрсетіңіз.";
+
+"DMKError_Invalid_Landline" = "Жарамсыз Broadband пайдаланушы";
+
+ 
+
+//
+
+"DMKInvalid_EMail_Address" = "Жарамды электрондық пошта мекенжайын енгізіңіз";
+
+ 
+
+//Radio
+
+"DMKData_Radio" = "Data Radio";
+
+"DMKSend_Message" = "Хабарламаны жіберу";
+
+"DMKChoose_Option" = Нұсқаны таңдаңыз:";
+
+"DMKWrite_Message" = "Хабарлама жазу";
+
+"DMKRecord_Message" = "Хабарлама жазу";
+
+"DMKCreate_Channel" = "Создать канал";
+
+"DMKWrite_Channel_Name" = "Арна атын еңгізіңіз";
+
+"DMKCreated_Channel" = "Құрылған арналар";
+
+"DMKTuned_Channel" = "Бапталған арналар";
+
+"DMKJoin" = "Қосылу";
+
+"DMKCreate" = "Құру";
+
+"DMKTune" = "Баптау";
+
+"DMKConnected_Channels" = "Байланысты арналар";
+
+"DMKRemove" = "Жою";
+
+"DMKSent_Messages" = "Жіберілген хабарламалар";
+
+"DMKView_Listen_Again" = "Көру / тыңдау";
+
+"DMKType_Here" = "Осында таңдаңыз";
+
+"DMKBroadcast" = "Трансмиссия";
+
+"DMKMic_Text_1" = "Дауыстық хабарды жазуды бастау немесе тоқтату үшін Mic түймесін басыңызя";
+
+"DMKRadio_Share_Text" = "Менің арнама баптау үшін DataRadio арна атым - XX.Download datamail.goo.gl/ROxrkZ-дан қосымшаны жүктеу";
+
+"DMKRadio_Join_Text" = "Мен DataRadio арнасына қосылдым, оның аты XX. Арканы батату үшін datamail жүктеңіз. goo.gl/ROxrkZ-дан қосымшаны жүктеу";
+
+ 
+
+"DMKBroadcast_Sent_To" = "Трансмиссияны жіберу";
+
+"DMKBroadcast_Received_From" = "Трансмиссия алынған";
+
+"DMKMessage_Delete_Confirmation" = "Бұл хабарды жойғыңыз келетініне сенімдісіз бе?";
+
+"DMKText_Message" = "Хабарлама мәтіні";
+
+"DMKVoice_message" = "Дауыстық хабарлама";
+
+"DMKSending_Broadcast" = "Трансмиссияны жіберу";
+
+"DMKBroadcast_Successfull" = "Трансмиссиясы сәтті өтті";
+
+"DMKBlank_Audio_Alert" = "Бос аудио хабарлама жіберу мүмкін емес";
+
+"DMKBlank_Text_Alert" = "Бос мәтін хабарлама жіберу мүмкін емес";
+
+"DMKChannel_Name_Alert" = "Арна атауын жазыңыз";
+
+"DMKChannel_Max_Alert" = "Сіз ең көп 10 арна жасай аласыз";
+
+"DMKFetching_Channels" = "Арналарды таңдау";
+
+"DMKCreating_Channel" = "Арнаны құру";
+
+"DMKChannel_Delete_Confirmation" = "Сіз құрылған арнаны жойғыңыз келетініне сенімдісіз бе?";
+
+"DMKChannel_Exit_Confirmation" = "Осы тіркелген арнадан шыққыңыз келетініне сенімдісіз бе";
+
+"DMKExiting_Channel" = "Арнадан шығу";
+
+ 
+
+"DMKChannel_Created_Success" = Арна сәтті құрылды";
+
+"DMKChannel_Already_Exists" = "Арна атауы бұрыннан бар";
+
+"DMKCan_Not_Broadcast" = "Қатысушылар жоқ, жіберу мүмкін емес";
+
+"DMKReview" = Шолу";
+
+"DMKChannel_Name_Alert2" = "Арна атауы 8 әріптен артық болмауы мүмкін.";
+
+ 
+
+//Reply View
+
+"DMKMessage" = "Хабарлама";
+
+"DMKChannel_Name" = Арнаның атауы";
+
+ 
+
+//Radio New Module Extra
+
+"DMKSelect_Channels" = Арналарды таңдаңыз";
+
+"DMKWrite" = "Жазу";
+
+"DMKSpeak" = "Айту";
+
+"DMKSend_Picture" = "Суретті жіберу";
+
+"DMKSecond" = "Екінші";
+
+"DMKGallary" = "Галерея";
+
+"DMKCamera" = "Камера";
+
+"DMKNo_Image_Selected" = "Сурет таңдалған жоқ.";
+
+"DMKReceived_Message" = "Алынған хабарлама";
+
+"DMKSent_Message" = "Жіберілген хабарлама";
+
+"DMKDate" = "Күні";
+
+"DMKTune_Channel" = "Арнаны баптау";
+
+"DMKCreated" = "Құрылған";
+
+"DMKTuned" = Бапталған";
+
+"DMKChannels" = "Арналар";
+
+"DMKChannel_Tuned_Success" = "Арна сәтті бапталған";
+
+"DMKOld_Message" = "Ескі хабарламалар";
+
+ 
+
+//Create Alias Screen
+
+"DMKAliasCreted" = "Бүркеншік ат сәтті құрылды";
+
+"DMKCreate_Alias" = "Бүркеншік атты құру";
+
+"DMKDetail_Text" = "Сіз ағылшын тілінде (латынша) Datamail идентификаторын құрдыңыз, енді сіздің тіліңізде электрондық поштаның бүркеншік атын жасай аласыз, сонымен қатар ағылшын тілінен басқа, сіз орыс және қазақ тілдерінде жасай аласыз. Бұл электрондық пошта идентификаторын ағылшын электрондық пошта мекенжайыңыз сияқты пайдалануға болады. Логиніңіз бен құпия сөзіңізбен жүйеге кіруіңіз керек және сіз өзіңіздің тіліңіздегі барлық хабарларды аласыз";
